@@ -1,0 +1,1526 @@
+[
+    {
+        "swapName": "quickSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-DAI",
+                "address": "0xEEf611894CeaE652979C9D0DaE1dEb597790C6eE",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "WMATIC-USDC",
+                "address": "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0x604229c960e5CACF2aaEAc8Be68Ac07BA9dF81c3",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WMATIC-WETH",
+                "address": "0xadbF1854e5883eB8aa7BAf50705338739e558E5b",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WMATIC-WBTC",
+                "address": "0xf6B87181BF250af082272E3f448eC3238746Ce3D",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "WMATIC-SUSHI",
+                "address": "0x0B3a76D33d93b2651dbf03B102EEFa9500E89243",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+            },
+            {
+                "name": "WMATIC-LINK",
+                "address": "0x3c986748414A812e455DCd5418246B8fdEd5C369",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "WMATIC-GHST",
+                "address": "0x1366c529a133D4153211410126F12Aa4e31AaAc5",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "WMATIC-DPI",
+                "address": "0x8874654c6D2b03Ba32622a90640a89b09EC748f9",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369"
+            },
+            {
+                "name": "WMATIC-CRV",
+                "address": "0x634F9d9f8680349b518cb615017C105aF46CCFd2",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
+            },
+            {
+                "name": "WMATIC-BAL",
+                "address": "0xA3f2cE9f86F2E7E18Df141b6544fc906AD43F434",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "WMATIC-miMATIC",
+                "address": "0x7805B64e2d99412d3b8F10Dfe8fc55217C5cc954",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "WMATIC-EURS",
+                "address": "0x1aBFCA5eBf9051c309C64a86baE9fd6982Da3D20",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+            },
+            {
+                "name": "WMATIC-agEUR",
+                "address": "0x9c6270ea8E17aaf7BA14dc8E36f6517b9Ad9472A",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+            },
+            {
+                "name": "DAI-USDC",
+                "address": "0xf04adBF75cDFc5eD26eeA4bbbb991DB002036Bdd",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-USDT",
+                "address": "0x59153f27eeFE07E5eCE4f9304EBBa1DA6F53CA88",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "DAI-WETH",
+                "address": "0x4A35582a710E1F4b2030A3F826DA20BfB6703C09",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-WBTC",
+                "address": "0xfB7910710F8288143445912c575B9F4b37564351",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-LINK",
+                "address": "0xFBa51e1eA2d46c4D5E98f27E1F5333969d2222D7",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-GHST",
+                "address": "0xE8661Fd61A7154899545dC02B52E15d12377a764",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-CRV",
+                "address": "0xF16ad36077422B7579814660b691Eac1eb73290b",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-miMATIC",
+                "address": "0x74214F5d8AA71b8dc921D8A963a1Ba3605050781",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "DAI-EURS",
+                "address": "0x9aB8CB9EAcAAA3208BC248695A085ba68892bE77",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+            },
+            {
+                "name": "DAI-agEUR",
+                "address": "0x49668Ee947c8461A4D3BF01Ed7218a7d8E3739D7",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0x2cF7252e74036d1Da831d11089D326296e64a728",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0x853Ee4b2A13f8a742d64C8F088bE7bA2131f670d",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0xF6a637525402643B0654a54bEAd2Cb9A83C8B498",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-SUSHI",
+                "address": "0xD9f57D9ed738AE20C5a60241a32Fd076e69AF005",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-LINK",
+                "address": "0x70ceE55c98F6DA2685807611f115eA737d4a248E",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "USDC-GHST",
+                "address": "0x096C5CCb33cFc5732Bcd1f3195C13dBeFC4c82f4",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "USDC-DPI",
+                "address": "0xc424c63b609C05F9629204a1293BAEc072e027C9",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369"
+            },
+            {
+                "name": "USDC-CRV",
+                "address": "0x8982D71337003cd172198739238adA0D5d0BD2Fe",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-miMATIC",
+                "address": "0x160532D2536175d65C03B97b0630A9802c274daD",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDC-jEUR",
+                "address": "0xA45396941b780fc8d1B38c818F9eF4a7dCd1cec0",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
+            },
+            {
+                "name": "USDC-EURS",
+                "address": "0xb097359307d4ccd44ea30d167C53Ca091adf2E21",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+            },
+            {
+                "name": "USDC-agEUR",
+                "address": "0x82A54e66c05FCd555ADAE593848a4257C9e51AD9",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0xF6422B997c7F54D1c6a6e103bcb1499EeA0a7046",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-WBTC",
+                "address": "0x7847350B4C25f564B5a165389fDCeEA99e1ED3BD",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-SUSHI",
+                "address": "0xdAa4745705cdc72fdf274E5d75d0c22B109104D2",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-LINK",
+                "address": "0xE2FeE46bd868c85A99c79f18D6C3fF441d0E3CD6",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-GHST",
+                "address": "0x80a8da33C8E5e4627846f0E82b082b342db8D87C",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-CRV",
+                "address": "0x098F4Cc0d4B2eb6E440c20946bEDBA30E0c0962c",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-miMATIC",
+                "address": "0xE89faE1B4AdA2c869f05a0C96C87022DaDC7709a",
+                "token0": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WETH-WBTC",
+                "address": "0xdC9232E2Df177d7a12FdFf6EcBAb114E2231198D",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-SUSHI",
+                "address": "0x49E7D82DAfCC415a6eDD6e20F1710f3F024e964e",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-LINK",
+                "address": "0x5cA6CA6c3709E1E6CFe74a50Cf6B2B6BA2Dadd67",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-GHST",
+                "address": "0xcCB9d2100037f1253e6C1682AdF7dC9944498AFF",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-DPI",
+                "address": "0x9F77Ef7175032867d26E75D2fA267A6299E3fb57",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369"
+            },
+            {
+                "name": "WETH-CRV",
+                "address": "0xaB4F7A3199B2Cd7A8bFb425941EAd08FAcb6d617",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-BAL",
+                "address": "0xF6F3Bd0ADBF1bB9E3E031159F631Dd88d4a108c5",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "WETH-miMATIC",
+                "address": "0xCF2aBFf7B321CCAaaF4faca391Aa4Ffc87EfEc13",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "WETH-jEUR",
+                "address": "0x7090f6f42EA9b07C85E46aD796f8C4A50E0f76fA",
+                "token0": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-agEUR",
+                "address": "0x27c1e03c6cCB9EA37a3C2AB6495010593fc6f53e",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+            },
+            {
+                "name": "WBTC-LINK",
+                "address": "0x75e90aC3E5dd5CC30A418F0cD1e15c8C89c9076A",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "WBTC-GHST",
+                "address": "0xB45a79b714040C0937aD34A6e3aA4fa96a5704f4",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "WBTC-CRV",
+                "address": "0x44Cf1B91Cc64dBf2EA0f71272C062f267a4BA8BB",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "WBTC-miMATIC",
+                "address": "0x95BDb9423c5093C5C71b878e3102E2B0258Ad3A6",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "WBTC-jEUR",
+                "address": "0xFA073a2fa33085bAB2A3d4345fd1eec7D46EE4bC",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
+            },
+            {
+                "name": "LINK-GHST",
+                "address": "0x1bD82304C456401137BEb805ff0bc5D887cEA37f",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "LINK-CRV",
+                "address": "0x41de7cF3ad3E977fB1eDa30A26D393f49a2e7cA1",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "LINK-miMATIC",
+                "address": "0xa6f7eaEA224Cb110C89F5ba6DAFBaD1E1176e85f",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "GHST-miMATIC",
+                "address": "0x2EEAeC1544f356E41d9Eef17A373188386b34A56",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "GHST-agEUR",
+                "address": "0xe6AFD7C4C55484bE158C39f40Cb0cd814CB12Dc7",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+            },
+            {
+                "name": "miMATIC-agEUR",
+                "address": "0x58017A59Fd95b93cE63c74ca4d50529349194C7A",
+                "token0": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+            },
+            {
+                "name": "jEUR-agEUR",
+                "address": "0x6Fcfd491d841F79aAB10b7C29A98087351c4C2e9",
+                "token0": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
+                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+            }
+        ]
+    },
+    {
+        "swapName": "JetSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-DAI",
+                "address": "0xdc30d23c4D1195a9e8D35452d72d754572d1cE1c",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "WMATIC-USDC",
+                "address": "0x5E58e0CeD3a272CAeb8bA00F4A4C2805Df6BE495",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0x101640e107C4a72DeC79826768C239F1eB48cc85",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WMATIC-WETH",
+                "address": "0x951E38875a93df95bbd24fe31f409b7933B35BED",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WMATIC-WBTC",
+                "address": "0x31AF2A041F905fA56bcE631570e648b9c49AFf4F",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "WMATIC-LINK",
+                "address": "0x490508E3F1B7EA25d9822ea1E49409823a10bF60",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "WMATIC-miMATIC",
+                "address": "0xB933cE62d3956FbC2c1279958e601c8328169d2C",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "DAI-USDC",
+                "address": "0x4A53119dd905fD39ccC532C68e69505dfB47fc2C",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-WETH",
+                "address": "0xE4eB4261A4852c09055a6A94e2f7E8289425F0Ef",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-WBTC",
+                "address": "0x29130Bb393485fFCF479D480fCD4Fd9eB7F6D7EC",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0x20BF018FDDBa3b352f3d913FE1c81b846fE0F490",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0xFEFF91C350bB564cA5Dc7D6F7DcD12ac092F94FF",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0xcda2aBb19DB926d242F871C87B81575DFf7644F2",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-miMATIC",
+                "address": "0xAC6557DC5a648A080AB1C97A08b2BDa1AAfdD040",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0xc7f1B47F4ed069E9B34e6bD59792B8ABf5a66339",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-WBTC",
+                "address": "0x7641d6b873877007697D526EF3C50908779a6993",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-miMATIC",
+                "address": "0x24Ee108c85a7CF1453d148bf1A8dd017EBA3de03",
+                "token0": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WETH-WBTC",
+                "address": "0x173E90f2a94Af3b075DeEC7e64Df4d70EfB4Ac3D",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-LINK",
+                "address": "0x5eDA3fB2D2A56E50a47E369b4233DF712f062624",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            }
+        ]
+    },
+    {
+        "swapName": "DFYNSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-DAI",
+                "address": "0x6309D302d00fE6Da92e63092693F670274077b19",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "WMATIC-USDC",
+                "address": "0xD776C65B2A7a5832b4172742BF8C40CC062C678E",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0x75992E8266Ab600d4e9B0D7471dB6ba0D75b44b8",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WMATIC-WETH",
+                "address": "0x2FE46369b1C261Be62F9fD327ff5A9B17Ab0F451",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WMATIC-LINK",
+                "address": "0xb62500A267c84dB6934d15A7322072CC7b5D311A",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "WMATIC-GHST",
+                "address": "0x798800253E872c5175698091eD99b577553b07b1",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "DAI-USDC",
+                "address": "0xb7bd6d48C9b1aF7E126d0389C6970F157D974f33",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-USDT",
+                "address": "0xdd228fdC8A41A02BDEa72060F53C1f88A2FD48B6",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "DAI-WETH",
+                "address": "0xe69Fe44b087EaB9d0f1CBdcf63c1b266dcc556FE",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-LINK",
+                "address": "0xFaa4aa96224273aD5449b1d5BFfFa745661fE5b4",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-GHST",
+                "address": "0xD20fC1D61CBae8332167a7346aB20360cf91763f",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-CRV",
+                "address": "0xD8D7030b88144c9984bfFbB09364384eE875Dc46",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-miMATIC",
+                "address": "0x70B52380630c4263269cf249c49cBFfEee65bDd5",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0xBe40F7Fff5A2235aF9a8cb79A17373162eFeFA9C",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0x7D51bAd48d253dae37cC82cad07f73849286Deec",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0xC0ab47B79bC66F98e5C9eE5FF386a7150D3F4174",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-LINK",
+                "address": "0x86cC48EDcedff70AdAcBA59dEA9B61670f90eAc3",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "USDC-GHST",
+                "address": "0xB07F82000614809E73E82f6565560d268140CA27",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "USDC-CRV",
+                "address": "0xCF8172441b953e9609C425FCE91B32BE780FDFBD",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-miMATIC",
+                "address": "0x99ad92978274128a1e8F46669f592655aCD9583f",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDC-jEUR",
+                "address": "0x6EBA463E76D74374d13856D1BCa6E5aF0cFa3333",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0x5d577d6CdC82d7b6cAC7A101766b68f45bc3e34E",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-GHST",
+                "address": "0x938401CaF4B0Ae59c3197f72a2F1054048320F06",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WETH-WBTC",
+                "address": "0x39eAA90a70E8FdC04E1f63Db04e1c62c9aCe0641",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-LINK",
+                "address": "0x4F19aD546C66016042623B7ADe88923c161e3a3A",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-GHST",
+                "address": "0x27E18f8dA33e9e4aD002A34fA26902a6BB589D7D",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-CRV",
+                "address": "0x3a8A6831a1E866C64Bc07c3dF0f7B79ac9Ef2fA2",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-miMATIC",
+                "address": "0x017e669B1C3C09b6E5D7b954d46EF425a3574FE1",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "WBTC-LINK",
+                "address": "0x4B19FE759AF8dcC3e165a3Adc3aae4E4C3f45ba1",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "LINK-CRV",
+                "address": "0xf7aE211235a6EcA1907812e3fdD05302ef0cA369",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            }
+        ]
+    },
+    {
+        "swapName": "ApeSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-DAI",
+                "address": "0xd32f3139A214034A0f9777c87eE0a064c1FF6AE2",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "WMATIC-USDC",
+                "address": "0x019011032a7ac3A87eE885B6c08467AC46ad11CD",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0x65D43B64E3B31965Cd5EA367D4c2b94c03084797",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WMATIC-WETH",
+                "address": "0x6Cf8654e85AB489cA7e70189046D507ebA233613",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WMATIC-WBTC",
+                "address": "0xe82635a105c520fd58e597181cBf754961d51E3e",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "WMATIC-SUSHI",
+                "address": "0x6453d59abEEcCca6e9b2C62235D714102b08D7F8",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+            },
+            {
+                "name": "WMATIC-LINK",
+                "address": "0xa8EcA6Cc6Fb9F8Cfa9D3B17D4997ccE79E5110cf",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "WMATIC-CRV",
+                "address": "0x7433aFe84dF37d0954fF87D7F5788F124f8597F8",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
+            },
+            {
+                "name": "WMATIC-EURS",
+                "address": "0x0E5ae6b6373e77CAe15c17cc4EBC1a4544C593e2",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+            },
+            {
+                "name": "DAI-USDC",
+                "address": "0x5b13B583D4317aB15186Ed660A1E4C65C10da659",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-USDT",
+                "address": "0xedE04e0cD393A076C49DEB95D3686A52ccc49C71",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "DAI-WETH",
+                "address": "0xb724E5C1Aef93e972e2d4b43105521575f4ca855",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-WBTC",
+                "address": "0x24EE353Fc25FAAfD388B9ef3B14b20a5B543f896",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-CRV",
+                "address": "0x51d14A7b19407ece5C16Cb82542a1676f0A32da8",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-EURS",
+                "address": "0x3F2671FbBD37D5a7fD51075F61AB43088B53511D",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0x9Ec257C1862F1BdF0603A6c20ED6f3d6Bae6DEB0",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0x84964d9f9480a1dB644c2B2D1022765179A40F68",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0x237ac473Ac0AE4551019d9298A4118b3144F26A8",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-LINK",
+                "address": "0x04feDB0E01FD7ccE28f408e48821B30D027bf0c4",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "USDC-CRV",
+                "address": "0x39A9B6474db467C2874DB622a0e048013489501c",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-miMATIC",
+                "address": "0x4F5Ba2Bd06ee60A97B6824275Ea7B0846df3E947",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDC-EURS",
+                "address": "0x36B9F1f3503b9c0067d08d64510966aB816472F3",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0x7B2dD4bab4487a303F716070B192543eA171d3B2",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-WBTC",
+                "address": "0xcDbcc1Ac4d4e18FB1f2f2D604144Fd33E77cdA52",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WETH-WBTC",
+                "address": "0x8B6631324D4Bb1759F708DdE77e93ba898BB58c4",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-LINK",
+                "address": "0xab291E39CD0F8235BA42A20a86F996A3F8B934e1",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-CRV",
+                "address": "0x8bf34FF5945d519cf3EB4360e97585605C99DaA6",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WBTC-CRV",
+                "address": "0x9444aCC23807c1b2C469ed0D2f14C471a65B65B9",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "DPI-EURS",
+                "address": "0x7041C8B797C7817aEe56F7Df6B99CdD400Ba63c8",
+                "token0": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+            }
+        ]
+    },
+    {
+        "swapName": "sushiSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-DAI",
+                "address": "0x8929D3FEa77398F64448c85015633c2d6472fB29",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "WMATIC-USDC",
+                "address": "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0x55FF76BFFC3Cdd9D5FdbBC2ece4528ECcE45047e",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WMATIC-WETH",
+                "address": "0xc4e595acDD7d12feC385E5dA5D43160e8A0bAC0E",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WMATIC-WBTC",
+                "address": "0x8531c4e29491fE6e5e87AF6054FC20FcCf0b4290",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "WMATIC-SUSHI",
+                "address": "0x597A9bc3b24C2A578CCb3aa2c2C62C39427c6a49",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+            },
+            {
+                "name": "WMATIC-LINK",
+                "address": "0x68ccE7049013ca8df91CD512ceFEe8FC0bb8d926",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "WMATIC-GHST",
+                "address": "0xf69e93771F11AECd8E554aA165C3Fe7fd811530c",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "WMATIC-DPI",
+                "address": "0x91EB9925FAe2DA30116BC0eb911d688398F3CDa6",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369"
+            },
+            {
+                "name": "WMATIC-CRV",
+                "address": "0x140EA3fae80A2732eBc4DE0511FF84EF1A575217",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
+            },
+            {
+                "name": "WMATIC-BAL",
+                "address": "0x81E3dd9A4d58eC92AD575342967636Ae1A24CF2b",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "WMATIC-miMATIC",
+                "address": "0x619F43DB4A1Fd21F582B35D6628936d40A0ABdb6",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "DAI-USDC",
+                "address": "0xCD578F016888B57F1b1e3f887f392F0159E26747",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-USDT",
+                "address": "0x3B31Bb4b6bA4f67F4EF54e78bCb0AAa4f53DC7fF",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "DAI-WETH",
+                "address": "0x6FF62bfb8c12109E8000935A6De54daD83a4f39f",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-WBTC",
+                "address": "0x7a1d5E67c3a273274766E241363E3E98e721E456",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-SUSHI",
+                "address": "0x177E42F6B3da3ffdda3DCbB6010f00a380C3CB05",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-LINK",
+                "address": "0xb97977b27A3EA8b4CEed1C738ECa671A0dDAd5e8",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-GHST",
+                "address": "0xEa8272A56Fb2398fb85Ce882E6004b8CAabcA224",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-DPI",
+                "address": "0x0BbF021A4b99705377D62a25be1Ea11823960f51",
+                "token0": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-CRV",
+                "address": "0x5F3EeCeeaD64ee34b78e80cD574496E82e537541",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-BAL",
+                "address": "0x184496766505B40b381322821f6b28ecC4278B3B",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "DAI-miMATIC",
+                "address": "0x5b5b5712a8e87e5b09781a0Cf23937AF975C7465",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0x4B1F1e2435A9C96f7330FAea190Ef6A7C8D70001",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0x34965ba0ac2451A34a0471F04CCa3F990b8dea27",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0xD02b870c556480491c70AaF98C297fddd93F6f5C",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-SUSHI",
+                "address": "0xE15E9d2a5af5c1d3524bBC594DDc4a7D80aD27CD",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-LINK",
+                "address": "0x8bC8e9F621EE8bAbda8DC0E6Fc991aAf9BF8510b",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "USDC-GHST",
+                "address": "0x224DcAcf75a4cebf1959daC1aE9761bA6753D87f",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "USDC-DPI",
+                "address": "0x9F0c603476C3E41de989FC830E63961b23255332",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369"
+            },
+            {
+                "name": "USDC-CRV",
+                "address": "0x982c529Fd47CBa8f627c2aBE30286c69aB593501",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-BAL",
+                "address": "0x0f0810Ee18EE7e2E0F6E8196b11452fF55cE9082",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "USDC-miMATIC",
+                "address": "0x8ceed6619aeFFD5476315b90eb081485dA2aEbCA",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDC-jEUR",
+                "address": "0x1D1c55667D80975697D7F0d08878Cc180e12C48C",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0xc2755915a85C6f6c1C0F3a86ac8C058F11Caa9C9",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-WBTC",
+                "address": "0xb1dD5322BE07fb2A40ae7fbbBac96781Ca2B0602",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-SUSHI",
+                "address": "0xF19144BC9B66bD9B999167B41cCb17D473419d1D",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-LINK",
+                "address": "0x43C355d9cE77f91b7E1A314E258246D155100be9",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-GHST",
+                "address": "0x6436f5e99Be830D10387299FfdA076e87a06986B",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-CRV",
+                "address": "0x5c26E61C6153805B073beb185319De61aDBDcB98",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-BAL",
+                "address": "0xE74DdD4692eB3dB446A7b9FcB4F2cC9946271dB4",
+                "token0": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-miMATIC",
+                "address": "0x46563A38425BA0aaa406825AB992B704aCc894b0",
+                "token0": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WETH-WBTC",
+                "address": "0xE62Ec2e799305E0D367b0Cc3ee2CdA135bF89816",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-SUSHI",
+                "address": "0xb5846453B67d0B4b4Ce655930Cf6E4129F4416D7",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-LINK",
+                "address": "0x74D23F21F780CA26B47Db16B0504F2e3832b9321",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-GHST",
+                "address": "0x63894e0dfABA4024cd839D418cF1bED16B62f34B",
+                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-DPI",
+                "address": "0xCb3716006b3B468624b2A246505ec0d22673e077",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369"
+            },
+            {
+                "name": "WETH-CRV",
+                "address": "0x396E655C309676cAF0acf4607a868e0CDed876dB",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-BAL",
+                "address": "0xc67136e235785727a0d3B5Cfd08325327b81d373",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "WBTC-SUSHI",
+                "address": "0x3BfFD4Ca16197Ad48DC610c41a022664905b7fFC",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "WBTC-LINK",
+                "address": "0x67A81a470cC17257363e38AFC412A45B756fC6F9",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "WBTC-DPI",
+                "address": "0x6E89F5a8D1f4871ae012173A7B2E523a6cdcCd9A",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369"
+            },
+            {
+                "name": "WBTC-jEUR",
+                "address": "0xe795093243B38D15C653d3227e85f78f344Bce5B",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
+            },
+            {
+                "name": "SUSHI-LINK",
+                "address": "0x4eab9556BD46F552691fe75c16d1C2eD1622dF51",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "SUSHI-GHST",
+                "address": "0x529A733D538eAAedfCAcE354a470FFBcEc03Ac9E",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "SUSHI-CRV",
+                "address": "0xf2FFA11A11695b23BD7A26d587ee28039576D60F",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
+            },
+            {
+                "name": "SUSHI-BAL",
+                "address": "0x9Ffd53aB0AE54Ea4aF4d0cED44B3BE320961A5D9",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "LINK-CRV",
+                "address": "0x5e365dB1a7213c0c5739129D80e95E64e6ED088e",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+            },
+            {
+                "name": "LINK-BAL",
+                "address": "0xc18BCCF0458c3caC31dD6dCE372b71E5c5387528",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+            },
+            {
+                "name": "CRV-miMATIC",
+                "address": "0x1a45a8DE4D836cD7549b7F2C1B69e141f08c9051",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            }
+        ]
+    },
+    {
+        "swapName": "fraxSwap",
+        "pairs": []
+    },
+    {
+        "swapName": "MeerkatSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-USDC",
+                "address": "0xb965c131f1C48d89B1760860b782D2aCDF87273b",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0xa789324E64268C5385eA7678435Fa83532705B0F",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0x384c1b95027B73a98FE31Ea5B4B7b031b9ddD724",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0x8C26252B14F9b071585B81b240C4ae2176E8cD3C",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0x1aEc8fF1C39c34338327A32bBb35011432614172",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0x5adb38019452c5deEBEe4267dD2c84b5BB8682C4",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-WBTC",
+                "address": "0x53Eb96B575fD63589163448f39abD6F426702c69",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            }
+        ]
+    },
+    {
+        "swapName": "polyCatSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-DAI",
+                "address": "0x9cE65ae286e74f1268D19aB9b25f102C25DbDCb4",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "WMATIC-USDC",
+                "address": "0x8A4CEb4DffA238539C5d62Ce424980e8fdb21EBc",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0x4dB1087154Cd5B33fa275A88b183619f1a6F6614",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WMATIC-WETH",
+                "address": "0xC4e90AE0298E0e7BE0102Cce64089231e1E2D67C",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WMATIC-WBTC",
+                "address": "0x3B02A89628A375FAf4FC5eC83566801E9d9DCE02",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "WMATIC-GHST",
+                "address": "0x94C561e943BA5D4970d19D4954987C9468725945",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7"
+            },
+            {
+                "name": "DAI-USDC",
+                "address": "0xC8174d091c288FF78De98303c2973140Cbcf3B23",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-USDT",
+                "address": "0x8432E5C41C5c9Fd2A4c0c7deF017eFB4F89c1327",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "DAI-WETH",
+                "address": "0x2b1B874cB749472b963A80c5214b3Cb3fD7021a8",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-WBTC",
+                "address": "0xe27855Cce2ddC3a2E44f1Ad3CDC3eC6ce4903BBa",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0x97B4f2797cC903D76F9b8ff41A94286F0B16198e",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0x273c39ebd4e0c49f8Cc6E5A2B3c0e4ca355B5352",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0x5A83F4bf297f716e55c7A658a88d992756342c25",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0xd534a6b00e45bDE6F5fDD7F940491c998743329e",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDT-WBTC",
+                "address": "0x0509083749716B68f0fdB490a59Ca62F2cfFEbB9",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WETH-WBTC",
+                "address": "0xbbBd54c1CD649288d2e584917778eEccD8D8254d",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-LINK",
+                "address": "0x1Dbd21DB892e95D260Dda72c07A1337EEc761BA0",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-CRV",
+                "address": "0xc96E90C10b222c0451fBc29be4c726Af1178632A",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            }
+        ]
+    },
+    {
+        "swapName": "gravityFinanceSwap",
+        "pairs": [
+            {
+                "name": "WMATIC-DAI",
+                "address": "0x7618bfE5370859848bA26243b7Beb1Cc163A484a",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "WMATIC-USDC",
+                "address": "0xe0ce1D5380681d0d944b91C5A56D2B56e3cc93Dc",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "WMATIC-USDT",
+                "address": "0x3b211C86C533CE0650A7F813a8F034E4B901B478",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WMATIC-WETH",
+                "address": "0x0Dfbf1A50bdcB570Bd0fF7Bb307313B553a02598",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WMATIC-WBTC",
+                "address": "0x5e1112BB19D2e39c27467f7211670b7c09f6FD6F",
+                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+            },
+            {
+                "name": "DAI-USDC",
+                "address": "0x4bb452B8b74864F44913F100Bee280dAA61ac298",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-USDT",
+                "address": "0x5C3Ad802c4fb884DCff73F0abccDCB9Cbbab1753",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "DAI-WETH",
+                "address": "0x73A7b621090b8d7584cc40D1B1F016fB831949A3",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+            },
+            {
+                "name": "DAI-miMATIC",
+                "address": "0x6994fDB7D7a62ECa5fE285CB8Da2Ed4302911f18",
+                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDC-USDT",
+                "address": "0x42286296C3edE3f6a0ec4e687939b017408Cf321",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "USDC-WETH",
+                "address": "0xEeFe518d89A49328580480fA3d90073Bda074d32",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "USDC-WBTC",
+                "address": "0xf7F07072160EB53A71A9E0cA082Dc02Fe75FFA9F",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+            },
+            {
+                "name": "USDC-miMATIC",
+                "address": "0x4e2d0B3e3DED02B296960B389EAca870ff5031A8",
+                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+            },
+            {
+                "name": "USDT-WETH",
+                "address": "0x49DBFD108D828A148446cdF17e9dEDca1eb21dB1",
+                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+            },
+            {
+                "name": "WETH-WBTC",
+                "address": "0x84D49BeFf6AeCF52C461Eae687d959d64eDf2427",
+                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-SUSHI",
+                "address": "0x755fA1b736d7AE646c38907Bf87650E91e2A0a19",
+                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-LINK",
+                "address": "0x45EA5ce4e764Ae027b64c8DF8F457e168964e026",
+                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            },
+            {
+                "name": "WETH-CRV",
+                "address": "0xce4eB53Cdf8BbC07C8DCc2F7A39984CC929aF15D",
+                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+            }
+        ]
+    },
+    {
+        "swapName": "vulcanSwap",
+        "pairs": []
+    }
+]
