@@ -26,8 +26,8 @@ export function uniSwapV2GetAmountOut(
     fee: number,
     dx: ethers.BigNumber
 ): ethers.BigNumber {
-    const C: ethers.BigNumber = ethers.BigNumber.from(1000 - fee)
-    const feeBase: ethers.BigNumber = ethers.BigNumber.from("1000")
+    const C: ethers.BigNumber = ethers.BigNumber.from(10000 - fee)
+    const feeBase: ethers.BigNumber = ethers.BigNumber.from("10000")
 
     const dy = resY
         .mul(dx.mul(C))
@@ -54,9 +54,9 @@ export function uniSwapV2pairs_single(
     resY2: ethers.BigNumber,
     c2: number
 ): ethers.BigNumber[] {
-    const fee1: ethers.BigNumber = ethers.BigNumber.from(1000 - c1)
-    const fee2: ethers.BigNumber = ethers.BigNumber.from(1000 - c2)
-    const feeBase: ethers.BigNumber = ethers.BigNumber.from("1000")
+    const fee1: ethers.BigNumber = ethers.BigNumber.from(10000 - c1)
+    const fee2: ethers.BigNumber = ethers.BigNumber.from(10000 - c2)
+    const feeBase: ethers.BigNumber = ethers.BigNumber.from("10000")
 
     const a: ethers.BigNumber = fee1
         .mul(resY1.mul(resX1))

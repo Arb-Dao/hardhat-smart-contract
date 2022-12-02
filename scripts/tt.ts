@@ -7,6 +7,8 @@ import {
 } from "../uniswapv2-helper"
 
 import UniV2PairsInfo from "../UniV2PairsInfo.json"
+import { priceConvertor } from "../chainlink-price"
+import { networkConfig } from "../helper-hardhat-config"
 
 const main = async function () {
     // const pairContract = (await ethers.getContractAt(
@@ -22,10 +24,10 @@ const main = async function () {
     // console.log(resX.toString())
     // console.log(resY.toString())
     // console.log(dx.toString())
-    // console.log(result.toString())    
+    // console.log(result.toString())
 
     /* _______________________________________________________ */
-    
+
     // const pair1= (await ethers.getContractAt(
     //     "IUniswapV2Pair",
     //     "0xE8661Fd61A7154899545dC02B52E15d12377a764"
@@ -39,7 +41,6 @@ const main = async function () {
     // let [resX2, resY2] = await pair2.getReserves()
     // const c1: number = 3
     // const c2: number = 1
-
 
     // const resX1: BigNumber = ethers.BigNumber.from("10000"),
     //     resY1: BigNumber = ethers.BigNumber.from("50000"),
@@ -57,8 +58,12 @@ const main = async function () {
     // )
     // console.log(`Amount in = ${dxIn.toString()}`);
     // console.log(`Amount out = ${dxOut.toString()}`);
-    // console.log(`Benefit = ${benefit.toString()}`);    
-        
+    // console.log(`Benefit = ${benefit.toString()}`);
+    // console.log(networkConfig[137].UniswapV2[17])
+    // console.log(UniV2PairsInfo[17].pairs.length)
+    console.log(
+        (await priceConvertor("AAVE", ethers.utils.parseEther("1"))).toString()
+    )
 }
 
 main()
