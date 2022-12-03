@@ -1,4 +1,5 @@
-import { IUniswapV2Pair, IERC20, MyArb } from "../typechain-types/"
+import { IUniswapV2Pair, MyArb } from "../typechain-types/"
+import IERC20 from "../IERC20.json"
 import { networkConfig } from "../helper-hardhat-config"
 import { ethers, network } from "hardhat"
 import { BigNumber } from "ethers"
@@ -11,6 +12,7 @@ import arbJson from "../ArbsInfo.json"
 import blackListJson from "../blacklist-lowbalance.json"
 import noPairFoundJson from "../no-pair-found.json"
 import fs from "fs"
+import { priceConvertor } from "../chainlink-price"
 
 const minBalances = [
     ethers.utils.parseEther("5") /* WMATIC: */,
@@ -42,22 +44,22 @@ const main = async () => {
     let abiCoder = new ethers.utils.AbiCoder()
 
     /* getting already deployed contract */
-    // const deployer = (await ethers.getSigners())[0]
-    // console.log(`Connected with ${deployer.address}`)
+    const deployer = (await ethers.getSigners())[0]
+    console.log(`Connected with ${deployer.address}`)
 
-    // const myArb = await ethers.getContract("MyArb", deployer)
+    const myArb = await ethers.getContract("MyArb", deployer)
 
     // /*  Deployements */
-    const address = "0x066e7a421Fdd36f2263938aB328D8b2F09d9fCE0"
-    await network.provider.request({
-        method: "hardhat_impersonateAccount",
-        params: [address],
-    })
-    await network.provider.send("hardhat_setBalance", [
-        address,
-        "0x3635C9ADC5DEAFFFFF",
-    ])
-    const deployer = await ethers.getSigner(address)
+    // const address = "0x066e7a421Fdd36f2263938aB328D8b2F09d9fCE0"
+    // await network.provider.request({
+    //     method: "hardhat_impersonateAccount",
+    //     params: [address],
+    // })
+    // await network.provider.send("hardhat_setBalance", [
+    //     address,
+    //     "0x3635C9ADC5DEAFFFFF",
+    // ])
+    // const deployer = await ethers.getSigner(address)
     // const myArb = (await ethers.getContractAt(
     //     "MyArb",
     //     "0xF122e47246a8A4E84f6AA11310163C2B7bc39699",
@@ -65,30 +67,31 @@ const main = async () => {
     // )) as MyArb
     // console.log(`Connected with ${deployer.address}`)
 
-    const MyArbContractFactory = await ethers.getContractFactory(
-        "MyArb",
-        deployer
-    )
-    const args: any = networkConfig[137].AaveV3.poolAddressesProvider
-    const myArb = (await MyArbContractFactory.deploy(args)) as MyArb
-    await myArb.deployed()
-    const txReceipt = await myArb.deployTransaction.wait()
-    const gasUsed = (await txReceipt).gasUsed
-    const gasPrice = (await txReceipt).effectiveGasPrice
-    const gasCost = gasUsed.mul(gasPrice)
-    console.log(`Deployment Gas cost cost ${gasCost} `)
-    const depToJson = {
-        deployment: "deployed",
-        gasUsed: gasUsed.toString(),
-        gasPrice: gasPrice.toString(),
-        gasCost: gasCost.toString(),
-    }
+    // const MyArbContractFactory = await ethers.getContractFactory(
+    //     "MyArb",
+    //     deployer
+    // )
+    // const args: any = networkConfig[137].AaveV3.poolAddressesProvider
+    // const myArb = (await MyArbContractFactory.deploy(args)) as MyArb
+    // await myArb.deployed()
+    // const txReceipt = await myArb.deployTransaction.wait()
+    // const gasUsed = (await txReceipt).gasUsed
+    // const gasPrice = (await txReceipt).effectiveGasPrice
+    // const gasCost = gasUsed.mul(gasPrice)
+    // console.log(`Deployment Gas cost cost ${gasCost} `)
+    // const depToJson = {
+    //     deployment: "deployed",
+    //     gasUsed: gasUsed.toString(),
+    //     gasPrice: gasPrice.toString(),
+    //     gasCost: gasCost.toString(),
+    // }
     // arbInfo.push(depToJson)
 
     /* Job */
 
     while (true) {
         for (let i = 0 /* capture the swap */; i < UniV2PairsInfo.length; i++) {
+            if (i == 11) continue
             let zeroToOne1: boolean, zeroToOne2: boolean
             const C3 = networkConfig[137].UniswapV2[i].Fee
             for (
@@ -99,11 +102,12 @@ const main = async () => {
                 console.log(
                     `Checking for ${networkConfig[137].AaveV3.addresses[ii].name} pairs`
                 )
-                const token0Contract = (await ethers.getContractAt(
-                    "IERC20",
+                const token0Contract = await ethers.getContractAt(
+                    IERC20,
                     networkConfig[137].AaveV3.addresses[ii].address,
                     deployer
-                )) as IERC20
+                )
+                const baseTokenDecimal = await token0Contract.decimals()
                 for (let iii = 0; iii < UniV2PairsInfo[i].pairs.length; iii++) {
                     if (
                         noPairFound.includes(
@@ -175,6 +179,7 @@ const main = async () => {
                         if (j === i) {
                             continue
                         } /* skip the swap i, duplicate */
+                        if (j == 11) continue
                         const C6 = networkConfig[137].UniswapV2[j].Fee
                         for (
                             let jj = 0 /* capture pair in swap[j] */;
@@ -355,27 +360,27 @@ const main = async () => {
                                         console.log(
                                             `Arbitrage opportunity found from ${UniV2PairsInfo[i].swapName} to ${UniV2PairsInfo[j].swapName}`
                                         )
-                                        const arbInside1 = {
-                                            pair1: pair1.address,
-                                            zeroToOne1: zeroToOne1,
-                                            pair2: pair2.address,
-                                            zeroToOne2: zeroToOne2,
-                                            fromExtoEx:
-                                                UniV2PairsInfo[i].swapName +
-                                                " - " +
-                                                UniV2PairsInfo[j].swapName,
-                                            fromPairToPair:
-                                                networkConfig[137].AaveV3
-                                                    .addresses[ii].name +
-                                                " - " +
-                                                UniV2PairsInfo[j].pairs[jj]
-                                                    .address,
-                                            amountIn: dx.toString(),
-                                            amountout1: amountOut1.toString(),
-                                            expectedAmountout: W.toString(),
-                                            expectedBenefit: B.toString(),
-                                        }
-                                        console.log(arbInside1)
+                                        // const arbInside1 = {
+                                        //     pair1: pair1.address,
+                                        //     zeroToOne1: zeroToOne1,
+                                        //     pair2: pair2.address,
+                                        //     zeroToOne2: zeroToOne2,
+                                        //     fromExtoEx:
+                                        //         UniV2PairsInfo[i].swapName +
+                                        //         " - " +
+                                        //         UniV2PairsInfo[j].swapName,
+                                        //     fromPairToPair:
+                                        //         networkConfig[137].AaveV3
+                                        //             .addresses[ii].name +
+                                        //         " - " +
+                                        //         UniV2PairsInfo[j].pairs[jj]
+                                        //             .address,
+                                        //     amountIn: dx.toString(),
+                                        //     amountout1: amountOut1.toString(),
+                                        //     expectedAmountout: W.toString(),
+                                        //     expectedBenefit: B.toString(),
+                                        // }
+                                        // console.log(arbInside1)
 
                                         /* Execution of swap */
                                         const swapInp1 = [
@@ -402,7 +407,43 @@ const main = async () => {
                                                 amountOut1
                                             )
                                         }
-                                        if (amountOut2.isZero()) {
+                                        const swapBenefit = amountOut2.sub(dx)
+                                        const baseTokenPrice =
+                                            await priceConvertor(
+                                                networkConfig[137].AaveV3
+                                                    .addresses[ii].name
+                                            )
+                                        const ten = ethers.BigNumber.from("10")
+                                        const extimatedGasPrice =
+                                            ethers.utils.parseUnits(
+                                                "35",
+                                                "gwei"
+                                            )
+                                        const estimatedGasLimit =
+                                            ethers.BigNumber.from("318000")
+                                        const estimatedGasCost =
+                                            extimatedGasPrice.mul(
+                                                estimatedGasLimit
+                                            )
+                                        const benefitInMatic = baseTokenPrice
+                                            .mul(swapBenefit)
+                                            .div(ten.pow(baseTokenDecimal))
+                                        const afterGasBenefit = benefitInMatic
+                                            .mul(ethers.BigNumber.from("5"))
+                                            .div(ethers.BigNumber.from("10000"))
+                                            .sub(estimatedGasCost)
+                                        if (afterGasBenefit.lt(0)) {
+                                            console.log(
+                                                `Transaction not benefitial ${ethers.utils.formatEther(
+                                                    afterGasBenefit
+                                                )}`
+                                            )
+                                            continue
+                                        }
+                                        if (
+                                            amountOut2.isZero() ||
+                                            amountOut2.lte(dx)
+                                        ) {
                                             console.log(
                                                 `Amount out 2 is 0 so skiped`
                                             )
@@ -415,6 +456,8 @@ const main = async () => {
                                             zeroToOne2,
                                             UniV2PairsInfo[j].pairs[jj].address,
                                         ]
+
+                                        console.log({ swapInp1, swapInp2 })
 
                                         const swapParam = abiCoder.encode(
                                             [
@@ -453,9 +496,17 @@ const main = async () => {
                                             inputAmount: dx.toString(),
                                             outputAmount: amountOut2.toString(),
                                             calcBenefit: B.toString(),
+                                            realizedBenefit:
+                                                swapBenefit.toString(),
+                                            benefitInMatic:
+                                                benefitInMatic.toString(),
+                                            benefitAfterGas:
+                                                afterGasBenefit.toString(),
                                             gasUsed: gasUsed.toString(),
                                             gasPrice: gasPrice.toString(),
                                             gasCost: gasCost.toString(),
+                                            estimatedGasCost:
+                                                estimatedGasCost.toString(),
                                         }
                                         console.log(arbInside)
                                         arbInfo.push(arbInside)
