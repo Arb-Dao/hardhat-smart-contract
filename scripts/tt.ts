@@ -9,38 +9,50 @@ import {
 import UniV2PairsInfo from "../UniV2PairsInfo.json"
 import { priceConvertor } from "../chainlink-price"
 import { networkConfig } from "../helper-hardhat-config"
+import blackListJson from "../blacklist-lowbalance.json"
+import noPairFoundJson from "../no-pair-found.json"
 
 const main = async function () {
     // const pairContract = (await ethers.getContractAt(
     //     "IUniswapV2Pair",
-    //     "0xedE04e0cD393A076C49DEB95D3686A52ccc49C71"
+    //     "0xA3F74a4D794be005C7D92Ef1739BfcC4C84eA5A7"
     // )) as IUniswapV2Pair
-    // let [resX, resY] = await pairContract.getReserves()
+    // // let [resX, resY] = await pairContract.getReserves()
+    // let [resY, resX] = await pairContract.getReserves()
 
-    // const fee: number = 2,
-    //     dx: BigNumber = ethers.BigNumber.from("100000000000000000000")
+    // const fee: number = 30,
+    //     dx: BigNumber = ethers.BigNumber.from("54234")
 
     // const result = uniSwapV2GetAmountOut(resX, resY, fee, dx)
-    // console.log(resX.toString())
-    // console.log(resY.toString())
-    // console.log(dx.toString())
-    // console.log(result.toString())
+    // console.log({
+    //     ReserveIn: resX.toString(),
+    //     ReserveOut: resY.toString(),
+    //     AmountIn: dx.toString(),
+    //     AmountOut: result.toString(),
+    // })
+
+    // resX.toString()
+    // resY.toString()
+    // dx.toString()
+    // result.toString()
 
     /* _______________________________________________________ */
 
-    // const pair1= (await ethers.getContractAt(
-    //     "IUniswapV2Pair",
-    //     "0xE8661Fd61A7154899545dC02B52E15d12377a764"
-    // )) as IUniswapV2Pair
-    // const pair2= (await ethers.getContractAt(
-    //     "IUniswapV2Pair",
-    //     "0xD20fC1D61CBae8332167a7346aB20360cf91763f"
-    // )) as IUniswapV2Pair
+    const pair1 = (await ethers.getContractAt(
+        "IUniswapV2Pair",
+        "0xA3F74a4D794be005C7D92Ef1739BfcC4C84eA5A7"
+    )) as IUniswapV2Pair
+    const pair2 = (await ethers.getContractAt(
+        "IUniswapV2Pair",
+        "0xA2C85152AC8a19034cB93E2A0b4B847421c7F919"
+    )) as IUniswapV2Pair
 
     // let [resX1, resY1] = await pair1.getReserves()
     // let [resX2, resY2] = await pair2.getReserves()
-    // const c1: number = 3
-    // const c2: number = 1
+    let [resY1, resX1] = await pair1.getReserves()
+    let [resY2, resX2] = await pair2.getReserves()
+    const c1: number = 30
+    const c2: number = 30
 
     // const resX1: BigNumber = ethers.BigNumber.from("10000"),
     //     resY1: BigNumber = ethers.BigNumber.from("50000"),
@@ -48,22 +60,37 @@ const main = async function () {
     //     resX2: BigNumber = ethers.BigNumber.from("10000"),
     //     resY2: BigNumber = ethers.BigNumber.from("45000"),
     // c2: number = 1
-    // const [dxIn, dxOut, benefit] = uniSwapV2pairs_single(
-    //     resX1,
-    //     resY1,
-    //     c1,
-    //     resX2,
-    //     resY2,
-    //     c2
-    // )
-    // console.log(`Amount in = ${dxIn.toString()}`);
-    // console.log(`Amount out = ${dxOut.toString()}`);
-    // console.log(`Benefit = ${benefit.toString()}`);
-    // console.log(networkConfig[137].UniswapV2[17])
-    // console.log(UniV2PairsInfo[17].pairs.length)
-    console.log(
-        (await priceConvertor("AAVE", ethers.utils.parseEther("1"))).toString()
+    const [dxIn, dxOut, benefit] = uniSwapV2pairs_single(
+        resX1,
+        resY1,
+        c1,
+        resX2,
+        resY2,
+        c2
     )
+
+    const amountOut1 = uniSwapV2GetAmountOut(resX1, resY1, c1, dxIn)
+    const amountOut2 = uniSwapV2GetAmountOut(resY2, resX2, c2, amountOut1)
+
+    console.log({
+        pair1: pair1.address,
+        pair2: pair2.address,
+        ReserveIn1: resX1.toString(),
+        ReserveOut1: resY1.toString(),
+        ReserveIn2: resY2.toString(),
+        ReserveOut2: resX2.toString(),
+        amountIn: dxIn.toString(),
+        amountout1: amountOut1.toString(),
+        amountout2: amountOut2.toString(),
+        expectedAmountout: dxOut.toString(),
+        expectedBenefit: benefit.toString(),
+    })
+
+    // console.log(
+    //     (await priceConvertor("AAVE", ethers.utils.parseEther("1"))).toString()
+    // )
+    // console.log(noPairFoundJson.length);
+    // console.log(blackListJson.length);
 }
 
 main()

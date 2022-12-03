@@ -28,7 +28,7 @@ export const networkConfig = {
             {
                 name: "sushiSwap",
                 Factory: "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
-                RouterV02: "",
+                RouterV02: "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
                 Fee: 30,
             },
             {
@@ -70,7 +70,7 @@ export const networkConfig = {
             {
                 name: "DystSwap",
                 Factory: "0x1d21Db6cde1b18c7E47B0F7F42f4b3F68b9beeC9",
-                RouterV02: "",
+                RouterV02: "0xbE75Dd16D029c6B32B7aD57A0FD9C1c20Dd2862e",
                 Fee: 50,
             },
             {
@@ -115,7 +115,7 @@ export const networkConfig = {
             addresses: [
                 {
                     name: "WMATIC",
-                    address: "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                    address: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 },
                 {
                     name: "DAI",

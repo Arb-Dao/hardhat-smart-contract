@@ -5,6 +5,8 @@ pragma solidity 0.8.10;
 import "@aave/core-v3/contracts/flashloan/base/FlashLoanSimpleReceiverBase.sol";
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
+import "hardhat/console.sol";
+
 /* IERC20 interface */
 interface IERC20 {
     function approve(address spender, uint256 amount) external returns (bool);
@@ -151,6 +153,7 @@ contract MyArb is FlashLoanSimpleReceiverBase {
             );
             tradingPair.swap(_swapParams.amountOut, 0, address(this), "");
         }
+        console.log("until here done");
     }
 
     function withdrawERC20(address _asset, uint256 _amount) external onlyOwner {

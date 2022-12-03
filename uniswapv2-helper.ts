@@ -26,7 +26,7 @@ export function uniSwapV2GetAmountOut(
     fee: number,
     dx: ethers.BigNumber
 ): ethers.BigNumber {
-    const C: ethers.BigNumber = ethers.BigNumber.from(10000 - fee)
+    const C: ethers.BigNumber = ethers.BigNumber.from(10000 - fee - 3)
     const feeBase: ethers.BigNumber = ethers.BigNumber.from("10000")
 
     const dy = resY
