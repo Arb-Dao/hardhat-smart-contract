@@ -18,5 +18,19 @@
         "gasUsed": "308043",
         "gasPrice": "30000000021",
         "gasCost": "9241290006468903"
+    },
+    {
+        "fromExtoEx": "DFYNSwap - sushiSwap",
+        "fromPairToPair": "USDT - 0xA2C85152AC8a19034cB93E2A0b4B847421c7F919",
+        "inputAmount": "54234",
+        "outputAmount": "54919",
+        "calcBenefit": "718",
+        "realizedBenefit": "685",
+        "benefitInMatic": "685000000000000",
+        "benefitAfterGas": "-11129657500000000",
+        "gasUsed": "317092",
+        "gasPrice": "44487182197",
+        "gasCost": "14106529577211124",
+        "estimatedGasCost": "11130000000000000"
     }
 ]
