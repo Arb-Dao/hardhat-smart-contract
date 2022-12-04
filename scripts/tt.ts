@@ -110,7 +110,6 @@ const main = async function () {
     // console.log(estimatedGasCost.toString())
 
     console.log(UniV2PairsInfo[11].swapName);
-    
 }
 
 main()
