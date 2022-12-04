@@ -7,10 +7,8 @@ import "hardhat-deploy"
 import { ethers } from "ethers"
 import fs from "fs-extra"
 
-const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL!.toString()
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "key"
 const POLYGON_ALCHEMY = process.env.POLYGON_ALCHEMY || "key"
-const ETHEREUM_ALCHEMY = process.env.ETHEREUM_ALCHEMY || "key"
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || "key"
 
 const encryptedJson =
@@ -50,24 +48,10 @@ const config: HardhatUserConfig = {
                 // blockNumber: 3627190,
             },
         },
-        homestead: {
-            url: ETHEREUM_ALCHEMY,
-            accounts: [PRIVATE_KEY],
-            chainId: 1,
-        },
         matic: {
             url: POLYGON_ALCHEMY,
             accounts: [PRIVATE_KEY],
             chainId: 137,
-        },
-        goerli: {
-            url: GOERLI_RPC_URL,
-            accounts: [PRIVATE_KEY],
-            chainId: 5,
-        },
-        localhost: {
-            url: "http://127.0.0.1:8545/",
-            chainId: 31337,
         },
     },
     gasReporter: {
@@ -81,11 +65,6 @@ const config: HardhatUserConfig = {
     namedAccounts: {
         deployer: {
             default: 0,
-            5: 0, // ==> for example for goerli chainId it's second account
-        },
-        voter: {
-            default: 1,
-            5: 1, // ==> for example for goerli chainId it's second account
         },
     },
     etherscan: {

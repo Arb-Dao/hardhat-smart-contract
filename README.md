@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Arb Dao project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project intends to do
 
-Try running some of the following tasks:
+1. find arbitrage opportunities
+   1.1. uniswap v2 compatible pools
+   1.2. uniswap v3 compatible pools
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+2. make flashloan
+   2.1. currently only from aave v3 3. do the swap
