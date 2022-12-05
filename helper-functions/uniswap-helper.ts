@@ -9,30 +9,38 @@ import { tokenNameAddressConvertor } from "./token-name-address-conversion"
  * @dev This function will fetch the on chain price
  * @param amountIn The amount of the first token to swap
  * @param tokens List of tokens in direction of swap. Starting from token0 to token1. ex. USDT - USDC - WETH - WBTC
- * @param routerAddress The address of the desired router. ex. quickSwap, sushiSwap, etc.
+ * @param routerAddresses The address of the desired routers. ex. quickSwap, sushiSwap, etc.
  * @notice the tokens list can be both token symbol or token address
  * @return amountOut The amount of the last token that would be received
  */
 export const uniswapV2Quoter = async function (
     amountIn: BigNumber,
     tokens: string[],
-    routerAddress: string
+    routerAddresses: string[]
 ) {
     if (tokens[0].length !== 42) {
         for (let i = 0; i < tokens.length; i++) {
             tokens[i] = tokenNameAddressConvertor(tokens[i])
         }
     }
+    let amountsOut: BigNumber[][] = []
+    let amountInLocal = amountIn
+    for (let i = 0; i < routerAddresses.length; i++) {
+        const quoterContract = await ethers.getContractAt(
+            UniswapV2Router02Json.abi,
+            routerAddresses[i]
+        )
 
-    const quoterContract = await ethers.getContractAt(
-        UniswapV2Router02Json.abi,
-        routerAddress
-    )
+        amountsOut.push(
+            await quoterContract.getAmountsOut(amountInLocal, [
+                tokens[0],
+                tokens[1],
+            ])
+        )
 
-    const amountsOut: BigNumber[] = await quoterContract.getAmountsOut(
-        amountIn,
-        tokens
-    )
+        amountInLocal = amountsOut[i][amountsOut[i].length - 1]
+        tokens.shift()
+    }
     return amountsOut
 }
 
@@ -40,34 +48,49 @@ export const uniswapV2Quoter = async function (
  * @dev This function will fetch the on chain price
  * @notice Returns the amount out received for a given exact input swap without executing the swap
  * @param amountIn The amount of the first token to swap
- * @param path The path of the swap, i.e. each token pair and the pool fee. ex. USDT - 100 - USDC - 5000 - WETH
- * @param quoterAddress The address of the desired quoter. ex. uniswapv3, etc.
+ * @param path The array of paths of the swaps, i.e. each token pair and the pool fee. ex. USDT - 100 - USDC - 5000 - WETH
+ * @param quoterAddress The array of desired quoter addresses. ex. uniswapv3, etc.
  * @notice the tokens list can be both token symbol or token address
  * @return amountOut The amount of the last token that would be received
  */
 export const uniswapV3Quoter = async function (
     amountIn: BigNumber,
-    path: any[],
-    quoterAddress: string
+    path: any[][],
+    quoterAddress: string[]
 ) {
-    let pathType: string[] = []
+    let pathType: string[][] = []
 
     for (let i = 0; i < path.length; i++) {
-        if (i % 2 === 0) {
-            path[i] = tokenNameAddressConvertor(path[i])
-            pathType.push("address")
-        } else {
-            pathType.push("uint24")
+        let pathTypeInside: string[] = []
+        for (let j = 0; j < path[i].length; j++) {
+            if (j % 2 === 0) {
+                path[i][j] = tokenNameAddressConvertor(path[i][j])
+                pathTypeInside.push("address")
+            } else {
+                pathTypeInside.push("uint24")
+            }
         }
+        pathType.push(pathTypeInside)
     }
+    console.log(path)
+    console.log(pathType)
 
-    const quoterContract = await ethers.getContractAt(QuoterABI, quoterAddress)
+    let amountsOut: BigNumber[] = []
+    let amountInLocal = amountIn
+    for (let i = 0; i < quoterAddress.length; i++) {
+        const quoterContract = await ethers.getContractAt(
+            QuoterABI,
+            quoterAddress[i]
+        )
+        const encodedPath = ethers.utils.solidityPack(pathType[i], path[i])
 
-    const encodedPath = ethers.utils.solidityPack(pathType, path)
-
-    const amountOut = await quoterContract.callStatic.quoteExactInput(
-        encodedPath,
-        amountIn
-    )
-    return amountOut
+        amountsOut.push(
+            await quoterContract.callStatic.quoteExactInput(
+                encodedPath,
+                amountInLocal
+            )
+        )
+        amountInLocal = amountsOut[amountsOut.length - 1]
+    }
+    return amountsOut
 }
