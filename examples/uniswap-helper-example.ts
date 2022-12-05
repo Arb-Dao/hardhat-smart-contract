@@ -1,5 +1,6 @@
 import {
     uniswapV2Quoter,
+    uniswapV2SpotPrice,
     uniswapV3Quoter,
 } from "../helper-functions/uniswap-helper"
 import { ethers } from "ethers"
@@ -14,6 +15,17 @@ const main = async function () {
     ]
     const a = await uniswapV2Quoter(amountIn, pathV2, routerV2)
     console.log(`Amount calculated by quoter v2 is ${a}`)
+
+    /* Spot price example */
+    const baseToken = "weth",
+        quoteToken = "usdt",
+        factoryAddress = "0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32"
+    const price = await uniswapV2SpotPrice(
+        baseToken,
+        quoteToken,
+        factoryAddress
+    )
+    console.log(`Te price calculated by Spot price for V2 compatibel exchanges ${price}`)
 
     /* Quoter V3 example */
     const fee: number = 3000

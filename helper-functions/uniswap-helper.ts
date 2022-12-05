@@ -1,9 +1,14 @@
-import UniswapV2Router02Json from "../node_modules/@uniswap/v2-periphery/build/IUniswapV2Router02.json"
+import { abi as UniswapV2RouterABI } from "../node_modules/@uniswap/v2-periphery/build/UniswapV2Router02.json"
+import { abi as UniswapV2FactoryABI } from "../node_modules/@uniswap/v2-core/build/UniswapV2Factory.json"
+import { abi as UniswapV2PairABI } from "../node_modules/@uniswap/v2-core/build/UniswapV2Pair.json"
 import { abi as QuoterABI } from "@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json"
 
 import { BigNumber } from "ethers"
-import { ethers, network } from "hardhat"
-import { tokenNameAddressConvertor } from "./token-name-address-conversion"
+import { ethers } from "hardhat"
+import {
+    tokenDecimals,
+    tokenNameAddressConvertor,
+} from "./token-name-address-conversion"
 
 /**
  * @dev This function will fetch the on chain price
@@ -27,7 +32,7 @@ export const uniswapV2Quoter = async function (
     let amountInLocal = amountIn
     for (let i = 0; i < routerAddresses.length; i++) {
         const quoterContract = await ethers.getContractAt(
-            UniswapV2Router02Json.abi,
+            UniswapV2RouterABI,
             routerAddresses[i]
         )
 
@@ -42,6 +47,51 @@ export const uniswapV2Quoter = async function (
         tokens.shift()
     }
     return amountsOut
+}
+
+/**
+ * @dev This function give the spot price
+ * @param baseToken The base token
+ * @param quoteToken The quote token
+ * @param factoryAddress The address of the desired factory. ex. quickSwap, sushiSwap, etc.
+ * @notice the tokens list can be both token symbol or token address
+ * @notice this function has 8 decimals precision
+ * @return price The price of quote token in terms of base token
+ */
+export const uniswapV2SpotPrice = async function (
+    baseToken: string,
+    quoteToken: string,
+    factoryAddress: string
+) {
+    if (baseToken.length !== 42) {
+        baseToken = tokenNameAddressConvertor(baseToken)
+        quoteToken = tokenNameAddressConvertor(quoteToken)
+    }
+    const factoryContract = await ethers.getContractAt(
+        UniswapV2FactoryABI,
+        factoryAddress
+    )
+
+    const pairAddress = await factoryContract.getPair(baseToken, quoteToken)
+
+    const pairContract = await ethers.getContractAt(
+        UniswapV2PairABI,
+        pairAddress
+    )
+
+    const token0 = await pairContract.token0()
+    const token1 = token0 === baseToken ? quoteToken : baseToken
+
+    const token0Decimal = BigNumber.from(tokenDecimals(token0)),
+        token1Decimal = BigNumber.from(tokenDecimals(token1)),
+        ten = BigNumber.from(10)
+
+    const [resX, resY]: BigNumber[] = await pairContract.getReserves()
+
+    return resY
+        .div(ten.pow(token1Decimal))
+        .mul(ten.pow(BigNumber.from(8)))
+        .div(resX.div(ten.pow(token0Decimal)))
 }
 
 /**
@@ -72,8 +122,6 @@ export const uniswapV3Quoter = async function (
         }
         pathType.push(pathTypeInside)
     }
-    console.log(path)
-    console.log(pathType)
 
     let amountsOut: BigNumber[] = []
     let amountInLocal = amountIn
