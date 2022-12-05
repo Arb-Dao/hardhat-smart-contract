@@ -87,7 +87,6 @@ export const uniswapV2SpotPrice = async function (
         ten = BigNumber.from(10)
 
     const [resX, resY]: BigNumber[] = await pairContract.getReserves()
-    console.log({ resX, resY })
 
     return resY
         .div(ten.pow(token1Decimal))
@@ -123,8 +122,6 @@ export const uniswapV3Quoter = async function (
         }
         pathType.push(pathTypeInside)
     }
-    console.log(path)
-    console.log(pathType)
 
     let amountsOut: BigNumber[] = []
     let amountInLocal = amountIn
