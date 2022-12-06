@@ -66,12 +66,6 @@
         "Fee": 10
     },
     {
-        "name": "DystSwap",
-        "Factory": "0x1d21Db6cde1b18c7E47B0F7F42f4b3F68b9beeC9",
-        "RouterV02": "0xbE75Dd16D029c6B32B7aD57A0FD9C1c20Dd2862e",
-        "Fee": 50
-    },
-    {
         "name": "DinoSwap",
         "Factory": "0x624Ccf581371F8A4493e6AbDE46412002555A1b6",
         "RouterV02": "",
