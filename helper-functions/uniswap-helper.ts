@@ -1,7 +1,8 @@
 import { abi as UniswapV2RouterABI } from "../node_modules/@uniswap/v2-periphery/build/UniswapV2Router02.json"
-import { abi as UniswapV2FactoryABI } from "../node_modules/@uniswap/v2-core/build/UniswapV2Factory.json"
 import { abi as UniswapV2PairABI } from "../node_modules/@uniswap/v2-core/build/UniswapV2Pair.json"
 import { abi as QuoterABI } from "@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json"
+import uniswapV2PairsJSON from "./json-files/uniswap-v2-pairs.json"
+import uniswapV2VompatibleJSON from "./json-files/exchanges-uniswap-v2-compatible.json"
 
 import { BigNumber } from "ethers"
 import { ethers } from "hardhat"
@@ -67,20 +68,41 @@ export const uniswapV2SpotPrice = async function (
         baseToken = tokenNameAddressConvertor(baseToken)
         quoteToken = tokenNameAddressConvertor(quoteToken)
     }
-    const factoryContract = await ethers.getContractAt(
-        UniswapV2FactoryABI,
-        factoryAddress
-    )
 
-    const pairAddress = await factoryContract.getPair(baseToken, quoteToken)
+    let exchangeName: string
+    for (let i = 0; i < uniswapV2VompatibleJSON.length; i++) {
+        if (uniswapV2VompatibleJSON[i].Factory === factoryAddress) {
+            exchangeName = uniswapV2VompatibleJSON[i].name
+            break
+        }
+    }
+    if (exchangeName! === undefined) {
+        console.log(`Entered exchange doesn't exist in exchanges json file`)
+    }
+
+    let pairAddress: string
+    let token0: string
+    for (let i = 0; i < uniswapV2PairsJSON.length; i++) {
+        if (uniswapV2PairsJSON[i].exchange === exchangeName!) {
+            for (const pair of Object.values(uniswapV2PairsJSON[i].pairs)) {
+                if (baseToken === pair.token0 || baseToken === pair.token1) {
+                    if (
+                        quoteToken === pair.token0 ||
+                        quoteToken === pair.token1
+                    ) {
+                        pairAddress = pair.pairAddress
+                        token0 = pair.token0
+                        break
+                    }
+                }
+            }
+        }
+    }
 
     const pairContract = await ethers.getContractAt(
         UniswapV2PairABI,
-        pairAddress
+        pairAddress!
     )
-
-    const token0 = await pairContract.token0()
-    const token1 = token0 === baseToken ? quoteToken : baseToken
 
     const baseDecimal = BigNumber.from(tokenDecimals(baseToken)),
         quoteDecimal = BigNumber.from(tokenDecimals(quoteToken)),
@@ -88,12 +110,13 @@ export const uniswapV2SpotPrice = async function (
 
     const [resX, resY]: BigNumber[] = await pairContract.getReserves()
     const [resBase, resQuote] =
-        token0 === baseToken ? [resX, resY] : [resY, resX]
+        token0! === baseToken ? [resX, resY] : [resY, resX]
 
     return resQuote
+        .mul(ten.pow(BigNumber.from(18)))
+        .mul(ten.pow(baseDecimal))
+        .div(resBase)
         .div(ten.pow(quoteDecimal))
-        .mul(ten.pow(BigNumber.from(8)))
-        .div(resBase.div(ten.pow(baseDecimal)))
 }
 
 /**
@@ -116,7 +139,9 @@ export const uniswapV3Quoter = async function (
         let pathTypeInside: string[] = []
         for (let j = 0; j < path[i].length; j++) {
             if (j % 2 === 0) {
-                path[i][j] = tokenNameAddressConvertor(path[i][j])
+                if (path[i][j].length !== 42) {
+                    path[i][j] = tokenNameAddressConvertor(path[i][j])
+                }
                 pathTypeInside.push("address")
             } else {
                 pathTypeInside.push("uint24")

@@ -1,8 +1,7 @@
-import { uniswapV2SpotPrice } from "../helper-functions/uniswap-helper"
-
+import { spotPricePromise } from "../helper-functions/dev-tools/spot-price-promises"
 
 const main = async function () {
-    let price: number[] = await ETH
+    let price: Object = await spotPricePromise("weth", "usdc")
     console.log(price)
 }
 
