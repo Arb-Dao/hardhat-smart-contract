@@ -1,4 +1,4 @@
-import tokenlist from "./json-files/token-list.json"
+import tokenlist from "../json-files/token-list.json"
 /**
  * @dev This function convert name to onchain address and viceversa
  * @param tokenNameOrAddress the token symbol or the address on polygon chain.

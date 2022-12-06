@@ -11,16 +11,18 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "key"
 const POLYGON_ALCHEMY = process.env.POLYGON_ALCHEMY || "key"
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || "key"
 
-const encryptedJson =
-    fs.readFileSync("./encrypted-publicTest.json", "utf8") || "emptry"
 export let PRIVATE_KEY: string
 const PASSWORD: string = process.env.WAL_PASS || "No pass provided"
 
 if (PASSWORD != "No pass provided") {
+    const encryptedJson =
+        fs.readFileSync("./encrypted-publicTest.json", "utf8") || "emptry"
     PRIVATE_KEY = ethers.Wallet.fromEncryptedJsonSync(
         encryptedJson,
         PASSWORD
     ).privateKey
+} else if (process.env.PRIVATE_KEY) {
+    PRIVATE_KEY = process.env.PRIVATE_KEY
 } else {
     PRIVATE_KEY =
         "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"

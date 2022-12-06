@@ -1,4 +1,4 @@
-import { uniswapV2SpotPrice } from "./uniswap-helper"
+import { uniswapV2SpotPrice } from "../uniswap-helper"
 
 /**
  * @dev The promise to get spot price of exchanges at once.

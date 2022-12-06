@@ -8,7 +8,7 @@ import { ethers } from "hardhat"
 import {
     tokenDecimals,
     tokenNameAddressConvertor,
-} from "./token-name-address-conversion"
+} from "./dev-tools/token-name-address-conversion"
 
 /**
  * @dev This function will fetch the on chain price

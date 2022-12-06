@@ -1,7 +1,6 @@
 import v2CompatibleExchangesJSON from "../json-files/exchanges-uniswap-v2-compatible.json"
 import { abi as UniswapV2PairABI } from "../../node_modules/@uniswap/v2-core/build/UniswapV2Pair.json"
 import tokenListJSON from "../json-files/token-list.json"
-import uniswapV2Pairs from "../json-files/uniswap-v2-pairs.json"
 
 import { abi as UniswapV2FactoryABI } from "../../node_modules/@uniswap/v2-core/build/UniswapV2Factory.json"
 import { ethers } from "hardhat"
@@ -72,11 +71,6 @@ const main = async function () {
             }
         )
     }
-    // /* __________ export to Json parts __________ */
-    // const jsonDataString = JSON.stringify(exchangeConstruct)
-    // fs.writeFileSync("uniswap-v2-pairs.json", jsonDataString, {
-    //     encoding: "utf8",
-    // })
 }
 
 main()
