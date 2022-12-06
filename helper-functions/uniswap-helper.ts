@@ -82,16 +82,18 @@ export const uniswapV2SpotPrice = async function (
     const token0 = await pairContract.token0()
     const token1 = token0 === baseToken ? quoteToken : baseToken
 
-    const token0Decimal = BigNumber.from(tokenDecimals(token0)),
-        token1Decimal = BigNumber.from(tokenDecimals(token1)),
+    const baseDecimal = BigNumber.from(tokenDecimals(baseToken)),
+        quoteDecimal = BigNumber.from(tokenDecimals(quoteToken)),
         ten = BigNumber.from(10)
 
     const [resX, resY]: BigNumber[] = await pairContract.getReserves()
+    const [resBase, resQuote] =
+        token0 === baseToken ? [resX, resY] : [resY, resX]
 
-    return resY
-        .div(ten.pow(token1Decimal))
+    return resQuote
+        .div(ten.pow(quoteDecimal))
         .mul(ten.pow(BigNumber.from(8)))
-        .div(resX.div(ten.pow(token0Decimal)))
+        .div(resBase.div(ten.pow(baseDecimal)))
 }
 
 /**
