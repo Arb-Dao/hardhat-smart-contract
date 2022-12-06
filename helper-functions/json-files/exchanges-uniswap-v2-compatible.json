@@ -32,73 +32,73 @@
     {
         "name": "fraxSwap",
         "Factory": "0x54F454D747e037Da288dB568D4121117EAb34e79",
-        "RouterV02": "",
+        "RouterV02": "0xE52D0337904D4D0519EF7487e707268E1DB6495F",
         "Fee": 30
     },
     {
         "name": "MeerkatSwap",
         "Factory": "0x7cFB780010e9C861e03bCbC7AC12E013137D47A5",
-        "RouterV02": "",
+        "RouterV02": "0x51aBA405De2b25E5506DeA32A6697F450cEB1a17",
         "Fee": 17
     },
     {
         "name": "polyCatSwap",
         "Factory": "0x477Ce834Ae6b7aB003cCe4BC4d8697763FF456FA",
-        "RouterV02": "",
+        "RouterV02": "0x94930a328162957FF1dd48900aF67B5439336cBD",
         "Fee": 24
     },
     {
         "name": "gravityFinanceSwap",
         "Factory": "0x3ed75AfF4094d2Aaa38FaFCa64EF1C152ec1Cf20",
-        "RouterV02": "",
+        "RouterV02": "0x57dE98135e8287F163c59cA4fF45f1341b680248",
         "Fee": 25
     },
     {
         "name": "vulcanSwap",
         "Factory": "0x293f45b6F9751316672da58AE87447d712AF85D7",
-        "RouterV02": "",
+        "RouterV02": "0xfE0E493564DB7Ae23a7b6Ea07F2C633Ee8f25f22",
         "Fee": 30
     },
     {
         "name": "polyDexSwap",
         "Factory": "0xEAA98F7b5f7BfbcD1aF14D0efAa9d9e68D82f640",
-        "RouterV02": "",
+        "RouterV02": "0xC60aE14F2568b102F8Ca6266e8799112846DD088",
         "Fee": 10
     },
     {
         "name": "DinoSwap",
         "Factory": "0x624Ccf581371F8A4493e6AbDE46412002555A1b6",
-        "RouterV02": "",
+        "RouterV02": "0x6AC823102CB347e1f5925C634B80a98A3aee7E03",
         "Fee": 18
     },
     {
         "name": "ElkSwap",
         "Factory": "0xE3BD06c7ac7E1CeB17BdD2E5BA83E40D1515AF2a",
-        "RouterV02": "",
+        "RouterV02": "0xf38a7A7Ac2D745E2204c13F824c00139DF831FFf",
         "Fee": 30
     },
     {
         "name": "comethSwap",
         "Factory": "0x800b052609c355cA8103E06F022aA30647eAd60a",
-        "RouterV02": "",
+        "RouterV02": "0x93bcDc45f7e62f89a8e901DC4A0E2c6C427D9F25",
         "Fee": 50
     },
     {
         "name": "PolyZapSwap",
         "Factory": "0x34De5ce6c9a395dB5710119419A7a29baa435C88",
-        "RouterV02": "",
+        "RouterV02": "0x4aAEC1FA8247F85Dc3Df20F4e03FEAFdCB087Ae9",
         "Fee": 25
     },
     {
         "name": "WaultSwap",
         "Factory": "0xa98ea6356A316b44Bf710D5f9b6b4eA0081409Ef",
-        "RouterV02": "",
+        "RouterV02": "0x3a1D87f206D12415f5b0A33E786967680AAb4f6d",
         "Fee": 20
     },
     {
         "name": "RadioShackSwap",
         "Factory": "0xB581D0A3b7Ea5cDc029260e989f768Ae167Ef39B",
-        "RouterV02": "",
+        "RouterV02": "0xAf877420786516FC6692372c209e0056169eebAf",
         "Fee": 10
     }
 ]
