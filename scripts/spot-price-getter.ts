@@ -2,7 +2,9 @@ import { spotPricePromise } from "../helper-functions/dev-tools/spot-price-promi
 
 const main = async function () {
     let price: Object = await spotPricePromise("weth", "usdc")
-    console.log(price)
+    for (const [key, value] of Object.entries(price)) {
+        console.log(key, value.toString())
+    }
 }
 
 main()

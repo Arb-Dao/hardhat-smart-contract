@@ -1,8 +1,8 @@
 import v2CompatibleExchangesJSON from "../json-files/exchanges-uniswap-v2-compatible.json"
 import { abi as UniswapV2PairABI } from "../../node_modules/@uniswap/v2-core/build/UniswapV2Pair.json"
+import { abi as UniswapV2FactoryABI } from "../../node_modules/@uniswap/v2-core/build/UniswapV2Factory.json"
 import tokenListJSON from "../json-files/token-list.json"
 
-import { abi as UniswapV2FactoryABI } from "../../node_modules/@uniswap/v2-core/build/UniswapV2Factory.json"
 import { ethers } from "hardhat"
 import { BigNumber } from "ethers"
 
@@ -46,7 +46,7 @@ const main = async function () {
                     const [resX, resY]: BigNumber[] =
                         await pairContract.getReserves()
                     pairs[pairName] = {
-                        exist: true,
+                        fee: v2CompatibleExchangesJSON[i].Fee * 10,
                         pairAddress: pairAddress,
                         token0: await pairContract.token0(),
                         token1: await pairContract.token1(),
