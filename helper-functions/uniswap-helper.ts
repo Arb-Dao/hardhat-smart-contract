@@ -59,7 +59,7 @@ export const uniswapV2Quoter = async function (
  * @param quoteToken The quote token
  * @param factoryAddress The address of the desired factory. ex. quickSwap, sushiSwap, etc.
  * @notice the tokens list can be both token symbol or token address
- * @notice this function has 8 decimals precision
+ * @notice this function has 18 decimals precision
  * @return price The price of quote token in terms of base token, resX and resY
  */
 export const uniswapV2SpotPrice = async function (
@@ -183,7 +183,7 @@ export const uniswapV3Quoter = async function (
  * @param quoteToken The quote token
  * @param factoryAddress The address of the desired factory. ex. uniswap v3, sushiSwap, etc.
  * @notice the tokens list can be both token symbol or token address
- * @notice this function has 8 decimals precision
+ * @notice this function has 18 decimals precision
  * @return an array of array with the first number as the prices and the second number the swap fee
  */
 export const uniswapV3SpotPrice = async function (
