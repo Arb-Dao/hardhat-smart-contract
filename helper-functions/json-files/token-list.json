@@ -9,11 +9,11 @@
     ],
     "USDC": [
         "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        " 6"
+        "6"
     ],
     "USDT": [
         "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-        " 6"
+        "6"
     ],
     "WETH": [
         "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
@@ -21,7 +21,7 @@
     ],
     "WBTC": [
         "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-        " 8"
+        "8"
     ],
     "SUSHI": [
         "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
@@ -57,7 +57,7 @@
     ],
     "EURS": [
         "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-        " 2"
+        "2"
     ],
     "agEUR": [
         "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
@@ -73,6 +73,6 @@
     ],
     "stMATIC": [
         "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-        " 18"
+        "18"
     ]
 }

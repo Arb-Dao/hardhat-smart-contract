@@ -45,6 +45,11 @@ const main = async function () {
                     )
                     const [resX, resY]: BigNumber[] =
                         await pairContract.getReserves()
+                    if (
+                        resX.lte(ethers.BigNumber.from("100000000")) ||
+                        resY.lte(ethers.BigNumber.from("100000000"))
+                    )
+                        continue
                     pairs[pairName] = {
                         fee: v2CompatibleExchangesJSON[i].Fee * 10,
                         pairAddress: pairAddress,

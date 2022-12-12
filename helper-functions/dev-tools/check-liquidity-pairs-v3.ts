@@ -54,23 +54,25 @@ const main = async function () {
                             pairAddress
                         )
                         const token0 = await pairContract.token0(),
-                            token1 = await pairContract.token1()
-
+                            token1 = await pairContract.token1(),
+                            resX = await tokensContract
+                                .attach(token0)
+                                .balanceOf(pairAddress),
+                            resY = await tokensContract
+                                .attach(token1)
+                                .balanceOf(pairAddress)
+                        if (
+                            resX.lte(ethers.BigNumber.from("100000000")) ||
+                            resY.lte(ethers.BigNumber.from("100000000"))
+                        )
+                            continue
                         pairs[pairName] = {
                             fee: fee,
                             pairAddress: pairAddress,
                             token0: token0,
                             token1: token1,
-                            resX: (
-                                await tokensContract
-                                    .attach(token0)
-                                    .balanceOf(pairAddress)
-                            ).toString(),
-                            resY: (
-                                await tokensContract
-                                    .attach(token1)
-                                    .balanceOf(pairAddress)
-                            ).toString(),
+                            resX: resX.toString(),
+                            resY: resY.toString(),
                         }
                     }
                 }
