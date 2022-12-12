@@ -4,8 +4,8 @@ import { tokenDecimals } from "../helper-functions/dev-tools/token-name-address-
 
 const main = async function () {
     const baseToken = "weth",
-        quoteToken = "usdc"
-    let price: Object = await spotPricePromise("weth", "usdc"),
+        quoteToken = "usdt"
+    let price: Object = await spotPricePromise(baseToken, quoteToken),
         averagePriceV2: BigNumber,
         resBase: BigNumber = BigNumber.from(0),
         resQuote: BigNumber = BigNumber.from(0)

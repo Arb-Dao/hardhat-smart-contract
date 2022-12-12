@@ -240,14 +240,18 @@ export const uniswapV3SpotPrice = async function (
             Q96 = two.pow(BigNumber.from(96))
         const [sqrtPricexX96] = await pairContract.slot0()
 
-        let price = sqrtPricexX96.mul(ten.pow(9)).div(Q96).pow(two)
+        let price = sqrtPricexX96.mul(ten.pow(36)).div(Q96).pow(two)
+
         if (token0[i] === baseToken) {
             // price = ten.pow(BigNumber.from(36)).div(price)
-            price = price.mul(ten.pow(baseDecimal)).div(ten.pow(quoteDecimal))
+            price = price
+                .mul(ten.pow(baseDecimal))
+                .div(ten.pow(quoteDecimal))
+                .div(ten.pow(54))
             // price = ten.pow(BigNumber.from(36)).div(price)
         } else {
             price = ten
-                .pow(BigNumber.from(54))
+                .pow(108)
                 .div(price)
                 .mul(ten.pow(baseDecimal))
                 .div(ten.pow(quoteDecimal))

@@ -7,168 +7,144 @@
                 "pairAddress": "0xEEf611894CeaE652979C9D0DaE1dEb597790C6eE",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "12931368877422244967449",
-                "resY": "11687576339758859930895"
+                "resX": "13028079988785313035113",
+                "resY": "11645786397030663904541"
             },
             "WMATIC-USDC": {
                 "fee": 300,
                 "pairAddress": "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "2587682461608864379457878",
-                "resY": "2335432738577"
+                "resX": "2540404670013752313818985",
+                "resY": "2268418203238"
             },
             "WMATIC-USDT": {
                 "fee": 300,
                 "pairAddress": "0x604229c960e5CACF2aaEAc8Be68Ac07BA9dF81c3",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "818293111662423297710455",
-                "resY": "738308633977"
+                "resX": "823098645250036273010115",
+                "resY": "734952705207"
             },
             "WMATIC-WETH": {
                 "fee": 300,
                 "pairAddress": "0xadbF1854e5883eB8aa7BAf50705338739e558E5b",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "2030416108591104074054769",
-                "resY": "1476263040289447485566"
-            },
-            "WMATIC-WBTC": {
-                "fee": 300,
-                "pairAddress": "0xf6B87181BF250af082272E3f448eC3238746Ce3D",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "6961286759514221884700",
-                "resY": "37319892"
+                "resX": "2047834907472885495531606",
+                "resY": "1450783113188972868114"
             },
             "WMATIC-SUSHI": {
                 "fee": 300,
                 "pairAddress": "0x0B3a76D33d93b2651dbf03B102EEFa9500E89243",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "resX": "56599511271201348430",
-                "resY": "73066959167339775207"
+                "resX": "56907560518021780226",
+                "resY": "72676458137910098880"
             },
             "WMATIC-LINK": {
                 "fee": 300,
                 "pairAddress": "0x3c986748414A812e455DCd5418246B8fdEd5C369",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "1561935656387107589575",
-                "resY": "203406542385779726158"
+                "resX": "1550092357108072761193",
+                "resY": "205305999274548520105"
             },
             "WMATIC-GHST": {
                 "fee": 300,
                 "pairAddress": "0x1366c529a133D4153211410126F12Aa4e31AaAc5",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "1216502340760546157598",
-                "resY": "1075204136650303238773"
+                "resX": "1223865195121388110796",
+                "resY": "1081662999752606618046"
             },
             "WMATIC-DPI": {
                 "fee": 300,
                 "pairAddress": "0x8874654c6D2b03Ba32622a90640a89b09EC748f9",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-                "resX": "21409295223237334270",
-                "resY": "269977772456733640"
+                "resX": "21123340341249426646",
+                "resY": "273745442307448237"
             },
             "WMATIC-CRV": {
                 "fee": 300,
                 "pairAddress": "0x634F9d9f8680349b518cb615017C105aF46CCFd2",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "resX": "30559706011567600483",
-                "resY": "41306041498638933855"
+                "resX": "29871746538468908226",
+                "resY": "42263640665512426117"
             },
             "WMATIC-BAL": {
                 "fee": 300,
                 "pairAddress": "0xA3f2cE9f86F2E7E18Df141b6544fc906AD43F434",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "resX": "12429958512754010597",
-                "resY": "1862236891898056811"
+                "resX": "12267270460434250191",
+                "resY": "1887338719832335388"
             },
             "WMATIC-miMATIC": {
                 "fee": 300,
                 "pairAddress": "0x7805B64e2d99412d3b8F10Dfe8fc55217C5cc954",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "9337499244700244866064",
-                "resY": "8509254723767377089426"
-            },
-            "WMATIC-EURS": {
-                "fee": 300,
-                "pairAddress": "0x1aBFCA5eBf9051c309C64a86baE9fd6982Da3D20",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-                "resX": "33423611065702536",
-                "resY": "3"
+                "resX": "9407705266411329352756",
+                "resY": "8451599244918689359858"
             },
             "WMATIC-agEUR": {
                 "fee": 300,
                 "pairAddress": "0x9c6270ea8E17aaf7BA14dc8E36f6517b9Ad9472A",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
-                "resX": "11936711742535918",
-                "resY": "13496268529438050"
+                "resX": "11774700207362757",
+                "resY": "13759026426061515"
             },
             "WMATIC-Aave": {
                 "fee": 300,
                 "pairAddress": "0x0554059D42E26f35CC958581C71FdfD92405d02f",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "605747734576129391372",
-                "resY": "8866563101612474870"
+                "resX": "600547123278009368069",
+                "resY": "8946949184829402399"
             },
             "WMATIC-MaticX": {
                 "fee": 300,
                 "pairAddress": "0xb0e69f24982791dd49e316313fD3A791020B8bF7",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
-                "resX": "555885617421038641571953",
-                "resY": "533420971762157935835791"
+                "resX": "538737100082111223357303",
+                "resY": "517317711109587042537042"
             },
             "WMATIC-stMATIC": {
                 "fee": 300,
                 "pairAddress": "0x65752C54D9102BDFD69d351E1838A1Be83C924C6",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-                "resX": "416594184138996379772706",
-                "resY": "395445684544482336848677"
+                "resX": "415240061826630011214533",
+                "resY": "394244676971286441949828"
             },
             "DAI-USDC": {
                 "fee": 300,
                 "pairAddress": "0xf04adBF75cDFc5eD26eeA4bbbb991DB002036Bdd",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1404139020922",
-                "resY": "1402098957257762158194533"
+                "resX": "1316548879828",
+                "resY": "1319184503250457647122558"
             },
             "DAI-USDT": {
                 "fee": 300,
                 "pairAddress": "0x59153f27eeFE07E5eCE4f9304EBBa1DA6F53CA88",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "89585339488862490595080",
-                "resY": "89713916297"
+                "resX": "89663411374205283567018",
+                "resY": "89585321889"
             },
             "DAI-WETH": {
                 "fee": 300,
                 "pairAddress": "0x4A35582a710E1F4b2030A3F826DA20BfB6703C09",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "105601398412310092049",
-                "resY": "131102134589614027102411"
-            },
-            "DAI-WBTC": {
-                "fee": 300,
-                "pairAddress": "0xfB7910710F8288143445912c575B9F4b37564351",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "254198",
-                "resY": "42749487680334681208"
+                "resX": "104651408935802670570",
+                "resY": "132048107870026547986221"
             },
             "DAI-LINK": {
                 "fee": 300,
@@ -178,37 +154,21 @@
                 "resX": "57919154364016979",
                 "resY": "395914910096556959"
             },
-            "DAI-GHST": {
-                "fee": 300,
-                "pairAddress": "0xE8661Fd61A7154899545dC02B52E15d12377a764",
-                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1154",
-                "resY": "1125"
-            },
             "DAI-CRV": {
                 "fee": 300,
                 "pairAddress": "0xF16ad36077422B7579814660b691Eac1eb73290b",
                 "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "263567249809904608596",
-                "resY": "175571130321441255437"
+                "resX": "268519857670123271109",
+                "resY": "172345890100350296886"
             },
             "DAI-miMATIC": {
                 "fee": 300,
                 "pairAddress": "0x74214F5d8AA71b8dc921D8A963a1Ba3605050781",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "307358564892183204203776",
-                "resY": "310169135637143820949494"
-            },
-            "DAI-EURS": {
-                "fee": 300,
-                "pairAddress": "0x9aB8CB9EAcAAA3208BC248695A085ba68892bE77",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-                "resX": "50698912494879155198",
-                "resY": "4878"
+                "resX": "307749493152256541087442",
+                "resY": "309776355586093257605947"
             },
             "DAI-agEUR": {
                 "fee": 300,
@@ -223,264 +183,168 @@
                 "pairAddress": "0xF06E03b4Fd658e26A78175Da9eCd5b5B78422f45",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "23080836051386354",
-                "resY": "395976351338200"
+                "resX": "23988513955245473",
+                "resY": "381036642709078"
             },
             "USDC-USDT": {
                 "fee": 300,
                 "pairAddress": "0x2cF7252e74036d1Da831d11089D326296e64a728",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "5538872777910",
-                "resY": "5551670958514"
+                "resX": "5540671868065",
+                "resY": "5536273562414"
             },
             "USDC-WETH": {
                 "fee": 300,
                 "pairAddress": "0x853Ee4b2A13f8a742d64C8F088bE7bA2131f670d",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "2381636158971",
-                "resY": "1915732550750507794038"
+                "resX": "1186081348743",
+                "resY": "938537819036483884490"
             },
             "USDC-WBTC": {
                 "fee": 300,
                 "pairAddress": "0xF6a637525402643B0654a54bEAd2Cb9A83C8B498",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "547650586",
-                "resY": "92131153664"
-            },
-            "USDC-SUSHI": {
-                "fee": 300,
-                "pairAddress": "0xD9f57D9ed738AE20C5a60241a32Fd076e69AF005",
-                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "7058053407901010722",
-                "resY": "8435324"
+                "resX": "543817958",
+                "resY": "92745968044"
             },
             "USDC-LINK": {
                 "fee": 300,
                 "pairAddress": "0x70ceE55c98F6DA2685807611f115eA737d4a248E",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "2031469108",
-                "resY": "293429109603382560946"
+                "resX": "2004340040",
+                "resY": "297488632542248385854"
             },
             "USDC-GHST": {
                 "fee": 300,
                 "pairAddress": "0x096C5CCb33cFc5732Bcd1f3195C13dBeFC4c82f4",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "1323146912518",
-                "resY": "1291882707533894813023843"
+                "resX": "1322967148212",
+                "resY": "1300106123596088291682218"
             },
             "USDC-DPI": {
                 "fee": 300,
                 "pairAddress": "0xc424c63b609C05F9629204a1293BAEc072e027C9",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-                "resX": "218907320",
-                "resY": "3112437526593492296"
+                "resX": "218221439",
+                "resY": "3123864132194069401"
             },
             "USDC-CRV": {
                 "fee": 300,
                 "pairAddress": "0x8982D71337003cd172198739238adA0D5d0BD2Fe",
                 "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "722577020259817041172",
-                "resY": "479696898"
+                "resX": "739266822340902661676",
+                "resY": "469016600"
             },
             "USDC-miMATIC": {
                 "fee": 300,
                 "pairAddress": "0x160532D2536175d65C03B97b0630A9802c274daD",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "6587471287215",
-                "resY": "6632307078430175774101991"
-            },
-            "USDC-jEUR": {
-                "fee": 300,
-                "pairAddress": "0xA45396941b780fc8d1B38c818F9eF4a7dCd1cec0",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-                "resX": "27599",
-                "resY": "27936312573457874"
-            },
-            "USDC-EURS": {
-                "fee": 300,
-                "pairAddress": "0xb097359307d4ccd44ea30d167C53Ca091adf2E21",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-                "resX": "6675659",
-                "resY": "639"
+                "resX": "6569776267418",
+                "resY": "6621917693723247368071577"
             },
             "USDC-agEUR": {
                 "fee": 300,
                 "pairAddress": "0x82A54e66c05FCd555ADAE593848a4257C9e51AD9",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
-                "resX": "103142520681",
-                "resY": "98643991028362847913156"
+                "resX": "102318419800",
+                "resY": "97305430958935103634714"
             },
             "USDC-Aave": {
                 "fee": 300,
                 "pairAddress": "0x7c76B6B3FE14831A39C0fec908DA5f17180df677",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "664615715",
-                "resY": "10844565551142111661"
-            },
-            "USDC-stMATIC": {
-                "fee": 300,
-                "pairAddress": "0x9226908ABF9E7fb625c06B53c8EeFb37F125D4F4",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-                "resX": "4705172",
-                "resY": "4755350179383679908"
+                "resX": "658098164",
+                "resY": "10955939816319272545"
             },
             "USDT-WETH": {
                 "fee": 300,
                 "pairAddress": "0xF6422B997c7F54D1c6a6e103bcb1499EeA0a7046",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1128586784253576309768",
-                "resY": "1402894663016"
-            },
-            "USDT-WBTC": {
-                "fee": 300,
-                "pairAddress": "0x7847350B4C25f564B5a165389fDCeEA99e1ED3BD",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "209709",
-                "resY": "35137853"
-            },
-            "USDT-SUSHI": {
-                "fee": 300,
-                "pairAddress": "0xdAa4745705cdc72fdf274E5d75d0c22B109104D2",
-                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "59738836363000694",
-                "resY": "80651"
-            },
-            "USDT-LINK": {
-                "fee": 300,
-                "pairAddress": "0xE2FeE46bd868c85A99c79f18D6C3fF441d0E3CD6",
-                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "8586495507607571",
-                "resY": "62146"
-            },
-            "USDT-GHST": {
-                "fee": 300,
-                "pairAddress": "0x80a8da33C8E5e4627846f0E82b082b342db8D87C",
-                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "346737209714095652",
-                "resY": "361628"
-            },
-            "USDT-CRV": {
-                "fee": 300,
-                "pairAddress": "0x098F4Cc0d4B2eb6E440c20946bEDBA30E0c0962c",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "8706998615232",
-                "resY": "6"
+                "resX": "255965710279942308774",
+                "resY": "323440637597"
             },
             "USDT-miMATIC": {
                 "fee": 300,
                 "pairAddress": "0xE89faE1B4AdA2c869f05a0C96C87022DaDC7709a",
                 "token0": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "71119044840576807806539",
-                "resY": "70498940735"
-            },
-            "USDT-Aave": {
-                "fee": 300,
-                "pairAddress": "0xfcf19F1BAa7d36b4b293BC096A2948a1268f020d",
-                "token0": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "601668",
-                "resY": "9309127173117287"
-            },
-            "USDT-stMATIC": {
-                "fee": 300,
-                "pairAddress": "0xcFEfcC429b4b0197a3cd5b4D3887fD191b05da66",
-                "token0": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1252603699513830385",
-                "resY": "1226804"
+                "resX": "70424430856197909657576",
+                "resY": "70023112894"
             },
             "WETH-WBTC": {
                 "fee": 300,
                 "pairAddress": "0xdC9232E2Df177d7a12FdFf6EcBAb114E2231198D",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "5391164431",
-                "resY": "731399542205765530505"
+                "resX": "5402668782",
+                "resY": "731844036169524664573"
             },
             "WETH-SUSHI": {
                 "fee": 300,
                 "pairAddress": "0x49E7D82DAfCC415a6eDD6e20F1710f3F024e964e",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "7375766595767488784",
-                "resY": "7026024222265997"
+                "resX": "7453985728571335105",
+                "resY": "6952514816340389"
             },
             "WETH-LINK": {
                 "fee": 300,
                 "pairAddress": "0x5cA6CA6c3709E1E6CFe74a50Cf6B2B6BA2Dadd67",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "22962562324328500583580",
-                "resY": "127885291428511955819"
+                "resX": "23479373961755206116604",
+                "resY": "125167869879869211749"
             },
             "WETH-GHST": {
                 "fee": 300,
                 "pairAddress": "0xcCB9d2100037f1253e6C1682AdF7dC9944498AFF",
                 "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "114652940876194275133730",
-                "resY": "94269646124757835326"
+                "resX": "115686153501994424965428",
+                "resY": "93364274339041816468"
             },
             "WETH-DPI": {
                 "fee": 300,
                 "pairAddress": "0x9F77Ef7175032867d26E75D2fA267A6299E3fb57",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-                "resX": "7308269790990763280",
-                "resY": "127510771990250391316"
+                "resX": "7173668365257862465",
+                "resY": "129982763875896831213"
             },
             "WETH-CRV": {
                 "fee": 300,
                 "pairAddress": "0xaB4F7A3199B2Cd7A8bFb425941EAd08FAcb6d617",
                 "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "345134853985022529303",
-                "resY": "185671418208282674"
-            },
-            "WETH-BAL": {
-                "fee": 300,
-                "pairAddress": "0xF6F3Bd0ADBF1bB9E3E031159F631Dd88d4a108c5",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "resX": "98203526",
-                "resY": "15134366778"
+                "resX": "356954683572962304269",
+                "resY": "179543017654017131"
             },
             "WETH-miMATIC": {
                 "fee": 300,
                 "pairAddress": "0xCF2aBFf7B321CCAaaF4faca391Aa4Ffc87EfEc13",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "2010978773327246890",
-                "resY": "2506344859587962783073"
+                "resX": "1992686021408193541",
+                "resY": "2529912180821223967305"
             },
             "WETH-jEUR": {
                 "fee": 300,
                 "pairAddress": "0x7090f6f42EA9b07C85E46aD796f8C4A50E0f76fA",
                 "token0": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "9249253756227934086760",
-                "resY": "7837345288426907527"
+                "resX": "9338812218683867556215",
+                "resY": "7763028782343268492"
             },
             "WETH-agEUR": {
                 "fee": 300,
@@ -495,8 +359,8 @@
                 "pairAddress": "0x90bc3E68Ba8393a3Bf2D79309365089975341a43",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "212301996664250683659",
-                "resY": "4305010016389681473558"
+                "resX": "208034901494071095519",
+                "resY": "4394315838855626870804"
             },
             "WETH-MaticX": {
                 "fee": 300,
@@ -513,54 +377,6 @@
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "resX": "53443920890",
                 "resY": "657024502"
-            },
-            "WBTC-LINK": {
-                "fee": 300,
-                "pairAddress": "0x75e90aC3E5dd5CC30A418F0cD1e15c8C89c9076A",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "229668",
-                "resY": "5632273270878887142"
-            },
-            "WBTC-GHST": {
-                "fee": 300,
-                "pairAddress": "0xB45a79b714040C0937aD34A6e3aA4fa96a5704f4",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "7117",
-                "resY": "1154524643042734225"
-            },
-            "WBTC-CRV": {
-                "fee": 300,
-                "pairAddress": "0x44Cf1B91Cc64dBf2EA0f71272C062f267a4BA8BB",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "15322548725",
-                "resY": "1"
-            },
-            "WBTC-miMATIC": {
-                "fee": 300,
-                "pairAddress": "0x95BDb9423c5093C5C71b878e3102E2B0258Ad3A6",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "417",
-                "resY": "70549547775820048"
-            },
-            "WBTC-jEUR": {
-                "fee": 300,
-                "pairAddress": "0xFA073a2fa33085bAB2A3d4345fd1eec7D46EE4bC",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-                "resX": "112462",
-                "resY": "18401406369143059375"
-            },
-            "WBTC-Aave": {
-                "fee": 300,
-                "pairAddress": "0xb9DA6601D7e9aa4b09e99A2980Fe498Fa8D31a60",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "652",
-                "resY": "1829198814375280"
             },
             "SUSHI-Aave": {
                 "fee": 300,
@@ -615,24 +431,16 @@
                 "pairAddress": "0xe6AFD7C4C55484bE158C39f40Cb0cd814CB12Dc7",
                 "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
                 "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
-                "resX": "96240785350979101",
-                "resY": "104272433256885328"
+                "resX": "101058111535377996",
+                "resY": "99316086839239812"
             },
             "GHST-Aave": {
                 "fee": 300,
                 "pairAddress": "0x09c9eD2dc1d6F49aa00d2548fb4c40198c8eaaa7",
                 "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "8784682392073180393",
-                "resY": "148229404666968618"
-            },
-            "CRV-Aave": {
-                "fee": 300,
-                "pairAddress": "0x32c415a82a9901DBd2835F04a6875fe134d0eeFc",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "13911",
-                "resY": "73"
+                "resX": "8866149161771080611",
+                "resY": "146876778495777971"
             },
             "miMATIC-agEUR": {
                 "fee": 300,
@@ -657,14 +465,6 @@
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
                 "resX": "456476896359594",
                 "resY": "615315497356129"
-            },
-            "jEUR-agEUR": {
-                "fee": 300,
-                "pairAddress": "0x6Fcfd491d841F79aAB10b7C29A98087351c4C2e9",
-                "token0": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-                "token1": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
-                "resX": "1000",
-                "resY": "1000"
             }
         }
     },
@@ -676,40 +476,32 @@
                 "pairAddress": "0xdc30d23c4D1195a9e8D35452d72d754572d1cE1c",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "7033777173514317828",
-                "resY": "6225304500687493687"
+                "resX": "6932552298317556114",
+                "resY": "6316415764443978684"
             },
             "WMATIC-USDC": {
                 "fee": 100,
                 "pairAddress": "0x5E58e0CeD3a272CAeb8bA00F4A4C2805Df6BE495",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "10352688733827847409072",
-                "resY": "9352428970"
+                "resX": "10421475304128305659090",
+                "resY": "9294197415"
             },
             "WMATIC-USDT": {
                 "fee": 100,
                 "pairAddress": "0x101640e107C4a72DeC79826768C239F1eB48cc85",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "5764314829529658889749",
-                "resY": "5201895542"
+                "resX": "5795533488020947833788",
+                "resY": "5175802577"
             },
             "WMATIC-WETH": {
                 "fee": 100,
                 "pairAddress": "0x951E38875a93df95bbd24fe31f409b7933B35BED",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "4420223189297181459773",
-                "resY": "3212884005095846797"
-            },
-            "WMATIC-WBTC": {
-                "fee": 100,
-                "pairAddress": "0x31AF2A041F905fA56bcE631570e648b9c49AFf4F",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "627307444475012248",
-                "resY": "3368"
+                "resX": "4482786809801422609239",
+                "resY": "3168629944703831130"
             },
             "WMATIC-LINK": {
                 "fee": 100,
@@ -724,96 +516,48 @@
                 "pairAddress": "0xB933cE62d3956FbC2c1279958e601c8328169d2C",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "574510474197224",
-                "resY": "496735075868525"
+                "resX": "557210605288000",
+                "resY": "512235551693457"
             },
             "DAI-USDC": {
                 "fee": 100,
                 "pairAddress": "0x4A53119dd905fD39ccC532C68e69505dfB47fc2C",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "7977740857",
-                "resY": "7972297168834161802646"
+                "resX": "7972920003",
+                "resY": "7977174345014968981487"
             },
             "DAI-WETH": {
                 "fee": 100,
                 "pairAddress": "0xE4eB4261A4852c09055a6A94e2f7E8289425F0Ef",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "426843479956326",
-                "resY": "524477563798444467"
-            },
-            "DAI-WBTC": {
-                "fee": 100,
-                "pairAddress": "0x29130Bb393485fFCF479D480fCD4Fd9eB7F6D7EC",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1",
-                "resY": "21717481776"
+                "resX": "420544416137965",
+                "resY": "532355562510229433"
             },
             "USDC-USDT": {
                 "fee": 100,
                 "pairAddress": "0x20BF018FDDBa3b352f3d913FE1c81b846fE0F490",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "62901018475",
-                "resY": "62913224242"
+                "resX": "62921107820",
+                "resY": "62899559821"
             },
             "USDC-WETH": {
                 "fee": 100,
                 "pairAddress": "0xFEFF91C350bB564cA5Dc7D6F7DcD12ac092F94FF",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "4367487668",
-                "resY": "3513387040534213768"
-            },
-            "USDC-WBTC": {
-                "fee": 100,
-                "pairAddress": "0xcda2aBb19DB926d242F871C87B81575DFf7644F2",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "114027",
-                "resY": "19148975"
-            },
-            "USDC-miMATIC": {
-                "fee": 100,
-                "pairAddress": "0xAC6557DC5a648A080AB1C97A08b2BDa1AAfdD040",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "3123525",
-                "resY": "3146709369113023300"
+                "resX": "4401060932",
+                "resY": "3487028510164919463"
             },
             "USDT-WETH": {
                 "fee": 100,
                 "pairAddress": "0xc7f1B47F4ed069E9B34e6bD59792B8ABf5a66339",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "205558198084543176",
-                "resY": "256090724"
-            },
-            "USDT-WBTC": {
-                "fee": 100,
-                "pairAddress": "0x7641d6b873877007697D526EF3C50908779a6993",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "10475628",
-                "resY": "1762807290"
-            },
-            "USDT-miMATIC": {
-                "fee": 100,
-                "pairAddress": "0x24Ee108c85a7CF1453d148bf1A8dd017EBA3de03",
-                "token0": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "840062945733931",
-                "resY": "832"
-            },
-            "WETH-WBTC": {
-                "fee": 100,
-                "pairAddress": "0x173E90f2a94Af3b075DeEC7e64Df4d70EfB4Ac3D",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "38402173",
-                "resY": "5203252300547235670"
+                "resX": "204255168283760170",
+                "resY": "257740981"
             },
             "WETH-LINK": {
                 "fee": 100,
@@ -841,24 +585,8 @@
                 "pairAddress": "0x6309D302d00fE6Da92e63092693F670274077b19",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "5116818651140249",
-                "resY": "4690842210744496"
-            },
-            "WMATIC-USDC": {
-                "fee": 300,
-                "pairAddress": "0xD776C65B2A7a5832b4172742BF8C40CC062C678E",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "2904296062563860480",
-                "resY": "2602617"
-            },
-            "WMATIC-USDT": {
-                "fee": 300,
-                "pairAddress": "0x75992E8266Ab600d4e9B0D7471dB6ba0D75b44b8",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "146655693539104752",
-                "resY": "130797"
+                "resX": "5146783021857531",
+                "resY": "4663616698144178"
             },
             "WMATIC-WETH": {
                 "fee": 300,
@@ -897,24 +625,24 @@
                 "pairAddress": "0xb7bd6d48C9b1aF7E126d0389C6970F157D974f33",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "7359712966",
-                "resY": "7378972213687466759386"
+                "resX": "7374591830",
+                "resY": "7364362135723328405035"
             },
             "DAI-USDT": {
                 "fee": 300,
                 "pairAddress": "0xdd228fdC8A41A02BDEa72060F53C1f88A2FD48B6",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "27036736334202496427381",
-                "resY": "27034060837"
+                "resX": "27046396493179735950572",
+                "resY": "27024987925"
             },
             "DAI-WETH": {
                 "fee": 300,
                 "pairAddress": "0xe69Fe44b087EaB9d0f1CBdcf63c1b266dcc556FE",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "39066285396160071",
-                "resY": "48335692288343222452"
+                "resX": "38559109915786473",
+                "resY": "48975069845990989238"
             },
             "DAI-LINK": {
                 "fee": 300,
@@ -940,14 +668,6 @@
                 "resX": "331570303737488",
                 "resY": "201291700538012"
             },
-            "DAI-miMATIC": {
-                "fee": 300,
-                "pairAddress": "0x70B52380630c4263269cf249c49cBFfEee65bDd5",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "997",
-                "resY": "1004"
-            },
             "DAI-Aave": {
                 "fee": 300,
                 "pairAddress": "0xB43997d7aE3f53B94575FcdB2Fd60FAa2903d265",
@@ -961,144 +681,88 @@
                 "pairAddress": "0xBe40F7Fff5A2235aF9a8cb79A17373162eFeFA9C",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1036860283476",
-                "resY": "1037290761964"
+                "resX": "993163309369",
+                "resY": "992446064645"
             },
             "USDC-WETH": {
                 "fee": 300,
                 "pairAddress": "0x7D51bAd48d253dae37cC82cad07f73849286Deec",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "148166904588",
-                "resY": "119223580120730181819"
+                "resX": "149431867323",
+                "resY": "118245187377995590963"
             },
             "USDC-WBTC": {
                 "fee": 300,
                 "pairAddress": "0xC0ab47B79bC66F98e5C9eE5FF386a7150D3F4174",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "202206331",
-                "resY": "34007437145"
+                "resX": "199824826",
+                "resY": "34158575945"
             },
             "USDC-LINK": {
                 "fee": 300,
                 "pairAddress": "0x86cC48EDcedff70AdAcBA59dEA9B61670f90eAc3",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "2526866404",
-                "resY": "366321794075646894237"
-            },
-            "USDC-GHST": {
-                "fee": 300,
-                "pairAddress": "0xB07F82000614809E73E82f6565560d268140CA27",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "1458037",
-                "resY": "1413024504755752224"
-            },
-            "USDC-CRV": {
-                "fee": 300,
-                "pairAddress": "0xCF8172441b953e9609C425FCE91B32BE780FDFBD",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "16084771011736725341",
-                "resY": "10575729"
-            },
-            "USDC-miMATIC": {
-                "fee": 300,
-                "pairAddress": "0x99ad92978274128a1e8F46669f592655aCD9583f",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "1",
-                "resY": "1007599790"
-            },
-            "USDC-jEUR": {
-                "fee": 300,
-                "pairAddress": "0x6EBA463E76D74374d13856D1BCa6E5aF0cFa3333",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-                "resX": "1",
-                "resY": "927656522"
+                "resX": "2499452722",
+                "resY": "370450406807321480357"
             },
             "USDC-Aave": {
                 "fee": 300,
                 "pairAddress": "0x75b2F458e33922bEa5572eE0AD9A9e24ddFf5888",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "221317307",
-                "resY": "3609366063469805392"
+                "resX": "219005213",
+                "resY": "3648085474135541654"
             },
             "USDT-WETH": {
                 "fee": 300,
                 "pairAddress": "0x5d577d6CdC82d7b6cAC7A101766b68f45bc3e34E",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "164588297270895653",
-                "resY": "203049973"
-            },
-            "USDT-GHST": {
-                "fee": 300,
-                "pairAddress": "0x938401CaF4B0Ae59c3197f72a2F1054048320F06",
-                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1702852817129390316",
-                "resY": "1760105"
+                "resX": "162249247723325934",
+                "resY": "205995084"
             },
             "WETH-WBTC": {
                 "fee": 300,
                 "pairAddress": "0x39eAA90a70E8FdC04E1f63Db04e1c62c9aCe0641",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "188654153",
-                "resY": "25638701160576260487"
+                "resX": "189264842",
+                "resY": "25557370772714235467"
             },
             "WETH-LINK": {
                 "fee": 300,
                 "pairAddress": "0x4F19aD546C66016042623B7ADe88923c161e3a3A",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "728785292648746533",
-                "resY": "4014717638658821"
+                "resX": "731139289087044994",
+                "resY": "4001830395038727"
             },
             "WETH-GHST": {
                 "fee": 300,
                 "pairAddress": "0x27E18f8dA33e9e4aD002A34fA26902a6BB589D7D",
                 "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "30149812354111107671",
-                "resY": "25027212503087612"
+                "resX": "30623882899919980342",
+                "resY": "24641621312370032"
             },
             "WETH-CRV": {
                 "fee": 300,
                 "pairAddress": "0x3a8A6831a1E866C64Bc07c3dF0f7B79ac9Ef2fA2",
                 "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "231128584850380136412",
-                "resY": "124174366690234656"
-            },
-            "WETH-miMATIC": {
-                "fee": 300,
-                "pairAddress": "0x017e669B1C3C09b6E5D7b954d46EF425a3574FE1",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "60734984",
-                "resY": "82870709377"
+                "resX": "238469999788429602794",
+                "resY": "120362854886098139"
             },
             "WETH-Aave": {
                 "fee": 300,
                 "pairAddress": "0x7162c0AcF32820920a741D8fA466b8e6D60D530D",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "2023954820292820235",
-                "resY": "40889731187023140605"
-            },
-            "WBTC-LINK": {
-                "fee": 300,
-                "pairAddress": "0x4B19FE759AF8dcC3e165a3Adc3aae4E4C3f45ba1",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "4",
-                "resY": "86069618268550"
+                "resX": "1985314568456243725",
+                "resY": "41688450735706419014"
             },
             "LINK-CRV": {
                 "fee": 300,
@@ -1118,80 +782,64 @@
                 "pairAddress": "0xd32f3139A214034A0f9777c87eE0a064c1FF6AE2",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "697894079282557476910855",
-                "resY": "630417797042149545891739"
+                "resX": "702175377530762715916805",
+                "resY": "627495127140648418442374"
             },
             "WMATIC-USDC": {
                 "fee": 200,
                 "pairAddress": "0x019011032a7ac3A87eE885B6c08467AC46ad11CD",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "379496235726105245361",
-                "resY": "342560328"
+                "resX": "382920882285215767146",
+                "resY": "341044592"
             },
             "WMATIC-USDT": {
                 "fee": 200,
                 "pairAddress": "0x65D43B64E3B31965Cd5EA367D4c2b94c03084797",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "527269616708917489532736",
-                "resY": "476151651954"
+                "resX": "529948921736463789279685",
+                "resY": "473535528526"
             },
             "WMATIC-WETH": {
                 "fee": 200,
                 "pairAddress": "0x6Cf8654e85AB489cA7e70189046D507ebA233613",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "1342008486190794851998112",
-                "resY": "975365656979880049801"
+                "resX": "1356533836275465037499564",
+                "resY": "959687614908012238573"
             },
             "WMATIC-WBTC": {
                 "fee": 200,
                 "pairAddress": "0xe82635a105c520fd58e597181cBf754961d51E3e",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "320326115445551079740431",
-                "resY": "1717503599"
-            },
-            "WMATIC-SUSHI": {
-                "fee": 200,
-                "pairAddress": "0x6453d59abEEcCca6e9b2C62235D714102b08D7F8",
-                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-                "token1": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "resX": "755",
-                "resY": "1327"
+                "resX": "322812093037155298272427",
+                "resY": "1687721059"
             },
             "WMATIC-LINK": {
                 "fee": 200,
                 "pairAddress": "0xa8EcA6Cc6Fb9F8Cfa9D3B17D4997ccE79E5110cf",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "605877335838672557663",
-                "resY": "78748036610626210972"
+                "resX": "601269767402600417438",
+                "resY": "79355993505791244177"
             },
             "WMATIC-CRV": {
                 "fee": 200,
                 "pairAddress": "0x7433aFe84dF37d0954fF87D7F5788F124f8597F8",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "resX": "16333518734743048602175",
-                "resY": "22307056734526448797498"
-            },
-            "WMATIC-EURS": {
-                "fee": 200,
-                "pairAddress": "0x0E5ae6b6373e77CAe15c17cc4EBC1a4544C593e2",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-                "resX": "121117843311",
-                "resY": "1"
+                "resX": "16059492201999648939352",
+                "resY": "22692322262692706404599"
             },
             "WMATIC-Aave": {
                 "fee": 200,
                 "pairAddress": "0x42eD6D85ccF43859cBc46F6efA1f21e21cC24030",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "174441402824849333557",
-                "resY": "2579660553188837637"
+                "resX": "174210476646054801494",
+                "resY": "2583225830192693991"
             },
             "WMATIC-stMATIC": {
                 "fee": 200,
@@ -1206,32 +854,24 @@
                 "pairAddress": "0x5b13B583D4317aB15186Ed660A1E4C65C10da659",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "520571592637",
-                "resY": "520043653401513608060125"
+                "resX": "563477485435",
+                "resY": "562370697233990444266025"
             },
             "DAI-USDT": {
                 "fee": 200,
                 "pairAddress": "0xedE04e0cD393A076C49DEB95D3686A52ccc49C71",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "12127830518969476273598",
-                "resY": "12131318672"
+                "resX": "12136860234313563912511",
+                "resY": "12122352491"
             },
             "DAI-WETH": {
                 "fee": 200,
                 "pairAddress": "0xb724E5C1Aef93e972e2d4b43105521575f4ca855",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1300363093954619",
-                "resY": "1614602269166538542"
-            },
-            "DAI-WBTC": {
-                "fee": 200,
-                "pairAddress": "0x24EE353Fc25FAAfD388B9ef3B14b20a5B543f896",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1",
-                "resY": "18555290384"
+                "resX": "1284979897038839",
+                "resY": "1633970417477282297"
             },
             "DAI-CRV": {
                 "fee": 200,
@@ -1241,109 +881,29 @@
                 "resX": "109941251562364",
                 "resY": "66751354229304"
             },
-            "DAI-EURS": {
-                "fee": 200,
-                "pairAddress": "0x3F2671FbBD37D5a7fD51075F61AB43088B53511D",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-                "resX": "24449994941379033",
-                "resY": "1"
-            },
             "USDC-USDT": {
                 "fee": 200,
                 "pairAddress": "0x9Ec257C1862F1BdF0603A6c20ED6f3d6Bae6DEB0",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "64586739011",
-                "resY": "64581786258"
+                "resX": "64575667923",
+                "resY": "64598912016"
             },
             "USDC-WETH": {
                 "fee": 200,
                 "pairAddress": "0x84964d9f9480a1dB644c2B2D1022765179A40F68",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "1278164329",
-                "resY": "1028477770873870938"
-            },
-            "USDC-WBTC": {
-                "fee": 200,
-                "pairAddress": "0x237ac473Ac0AE4551019d9298A4118b3144F26A8",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "93614",
-                "resY": "15889478"
-            },
-            "USDC-LINK": {
-                "fee": 200,
-                "pairAddress": "0x04feDB0E01FD7ccE28f408e48821B30D027bf0c4",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "18203",
-                "resY": "2469195181845853"
-            },
-            "USDC-CRV": {
-                "fee": 200,
-                "pairAddress": "0x39A9B6474db467C2874DB622a0e048013489501c",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "101266360124180028",
-                "resY": "64906"
-            },
-            "USDC-miMATIC": {
-                "fee": 200,
-                "pairAddress": "0x4F5Ba2Bd06ee60A97B6824275Ea7B0846df3E947",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "1020317",
-                "resY": "1031689042255258522"
-            },
-            "USDC-EURS": {
-                "fee": 200,
-                "pairAddress": "0x36B9F1f3503b9c0067d08d64510966aB816472F3",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-                "resX": "121354",
-                "resY": "12"
-            },
-            "USDT-WETH": {
-                "fee": 200,
-                "pairAddress": "0x7B2dD4bab4487a303F716070B192543eA171d3B2",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "13093701517119865",
-                "resY": "16134755"
-            },
-            "USDT-WBTC": {
-                "fee": 200,
-                "pairAddress": "0xcDbcc1Ac4d4e18FB1f2f2D604144Fd33E77cdA52",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "7244736",
-                "resY": "1218490470"
-            },
-            "USDT-Aave": {
-                "fee": 200,
-                "pairAddress": "0xB822685a155225d328E7B1230f78ee3C9Cbf8071",
-                "token0": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "3501",
-                "resY": "54103781679685"
-            },
-            "WETH-WBTC": {
-                "fee": 200,
-                "pairAddress": "0x8B6631324D4Bb1759F708DdE77e93ba898BB58c4",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "55384",
-                "resY": "7482369869918680"
+                "resX": "1289794903",
+                "resY": "1019395134878643030"
             },
             "WETH-LINK": {
                 "fee": 200,
                 "pairAddress": "0xab291E39CD0F8235BA42A20a86F996A3F8B934e1",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "13483555604894605241",
-                "resY": "75172158497711918"
+                "resX": "13732592397263429097",
+                "resY": "73814629364290365"
             },
             "WETH-CRV": {
                 "fee": 200,
@@ -1358,24 +918,8 @@
                 "pairAddress": "0xBFF538AD7C1FD067F5529bBc7AA3b403F66d70Cf",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "5823715965735398",
-                "resY": "115276873140181753"
-            },
-            "WBTC-CRV": {
-                "fee": 200,
-                "pairAddress": "0x9444aCC23807c1b2C469ed0D2f14C471a65B65B9",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "14010235220634528593",
-                "resY": "55635"
-            },
-            "DPI-EURS": {
-                "fee": 200,
-                "pairAddress": "0x7041C8B797C7817aEe56F7Df6B99CdD400Ba63c8",
-                "token0": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-                "token1": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-                "resX": "9708207177",
-                "resY": "1"
+                "resX": "5750853684431250",
+                "resY": "116740337306897949"
             }
         }
     },
@@ -1387,64 +931,56 @@
                 "pairAddress": "0x8929D3FEa77398F64448c85015633c2d6472fB29",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "3436022817328457607663",
-                "resY": "3105488256692015717085"
+                "resX": "3453184794974126697012",
+                "resY": "3090922581471160394372"
             },
             "WMATIC-USDC": {
                 "fee": 300,
                 "pairAddress": "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "237259097787962891589104",
-                "resY": "214255676869"
+                "resX": "238689131803860053780321",
+                "resY": "213260867032"
             },
             "WMATIC-USDT": {
                 "fee": 300,
                 "pairAddress": "0x55FF76BFFC3Cdd9D5FdbBC2ece4528ECcE45047e",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "19994980152316618814716",
-                "resY": "18038958454"
+                "resX": "20089518741272251170336",
+                "resY": "17954515808"
             },
             "WMATIC-WETH": {
                 "fee": 300,
                 "pairAddress": "0xc4e595acDD7d12feC385E5dA5D43160e8A0bAC0E",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "2351254547607785636887500",
-                "resY": "1706411915347277366371"
-            },
-            "WMATIC-WBTC": {
-                "fee": 300,
-                "pairAddress": "0x8531c4e29491fE6e5e87AF6054FC20FcCf0b4290",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "357518589111640105086",
-                "resY": "1904129"
+                "resX": "2382673166901814899357545",
+                "resY": "1682278379878595326541"
             },
             "WMATIC-SUSHI": {
                 "fee": 300,
                 "pairAddress": "0x597A9bc3b24C2A578CCb3aa2c2C62C39427c6a49",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "resX": "29102655814087945357591",
-                "resY": "37168566484058396028853"
+                "resX": "28935742759482960275298",
+                "resY": "36885032755413279172351"
             },
             "WMATIC-LINK": {
                 "fee": 300,
                 "pairAddress": "0x68ccE7049013ca8df91CD512ceFEe8FC0bb8d926",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "196932804979296607733",
-                "resY": "25486752049236218614"
+                "resX": "194815951152626055198",
+                "resY": "25765871665473450741"
             },
             "WMATIC-GHST": {
                 "fee": 300,
                 "pairAddress": "0xf69e93771F11AECd8E554aA165C3Fe7fd811530c",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "138199710848325108169771",
-                "resY": "121873304172343341397679"
+                "resX": "138569358273491411917011",
+                "resY": "121632609943584466415949"
             },
             "WMATIC-DPI": {
                 "fee": 300,
@@ -1459,80 +995,72 @@
                 "pairAddress": "0x140EA3fae80A2732eBc4DE0511FF84EF1A575217",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "resX": "68540172261482979221",
-                "resY": "92595457138013405352"
+                "resX": "66940870933448302407",
+                "resY": "94819940359769480370"
             },
             "WMATIC-BAL": {
                 "fee": 300,
                 "pairAddress": "0x81E3dd9A4d58eC92AD575342967636Ae1A24CF2b",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "resX": "140685137069446504329",
-                "resY": "21569321199868047734"
+                "resX": "141776889562721096253",
+                "resY": "21410250774996333076"
             },
             "WMATIC-miMATIC": {
                 "fee": 300,
                 "pairAddress": "0x619F43DB4A1Fd21F582B35D6628936d40A0ABdb6",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "3936787666620449108",
-                "resY": "3598285447283418196"
+                "resX": "3937538081824469297",
+                "resY": "3599022032396361294"
             },
             "WMATIC-Aave": {
                 "fee": 300,
                 "pairAddress": "0x7d88D931504D04BFBEE6F9745297A93063CAb24c",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "662046293705855118683",
-                "resY": "9694576174318089531"
+                "resX": "658835463782631278264",
+                "resY": "9743357857078350393"
             },
             "WMATIC-stMATIC": {
                 "fee": 300,
                 "pairAddress": "0x9B9b6192F4aDcbF039C1b07aa5b237D55871301d",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-                "resX": "723084030",
-                "resY": "684948799"
+                "resX": "722910490",
+                "resY": "685113721"
             },
             "DAI-USDC": {
                 "fee": 300,
                 "pairAddress": "0xCD578F016888B57F1b1e3f887f392F0159E26747",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "177906463665",
-                "resY": "177593623986438290692546"
+                "resX": "177346016398",
+                "resY": "177745113433939818305677"
             },
             "DAI-USDT": {
                 "fee": 300,
                 "pairAddress": "0x3B31Bb4b6bA4f67F4EF54e78bCb0AAa4f53DC7fF",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "2276773513919658120124",
-                "resY": "2277739125"
+                "resX": "2277882133211513218697",
+                "resY": "2276881852"
             },
             "DAI-WETH": {
                 "fee": 300,
                 "pairAddress": "0x6FF62bfb8c12109E8000935A6De54daD83a4f39f",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "240573127042287593692",
-                "resY": "298832866578872485800027"
-            },
-            "DAI-WBTC": {
-                "fee": 300,
-                "pairAddress": "0x7a1d5E67c3a273274766E241363E3E98e721E456",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "16375422",
-                "resY": "2779136265489560915360"
+                "resX": "238205296712389527630",
+                "resY": "300572269866806922152531"
             },
             "DAI-SUSHI": {
                 "fee": 300,
                 "pairAddress": "0x177E42F6B3da3ffdda3DCbB6010f00a380C3CB05",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "19873456985343572835",
-                "resY": "23105659299386357303"
+                "resX": "19742244397869163875",
+                "resY": "23263040422143526189"
             },
             "DAI-LINK": {
                 "fee": 300,
@@ -1571,8 +1099,8 @@
                 "pairAddress": "0x184496766505B40b381322821f6b28ecC4278B3B",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "resX": "3230325838247517933",
-                "resY": "554202837591204635"
+                "resX": "3286124735864842813",
+                "resY": "544874283988511422"
             },
             "DAI-miMATIC": {
                 "fee": 300,
@@ -1587,296 +1115,128 @@
                 "pairAddress": "0xdc22C3C23d94CF60ce61F7ac73c05CaAb0ed4668",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "32321314999998443420",
-                "resY": "517722975558868400"
+                "resX": "32143054170464882667",
+                "resY": "520683076253164723"
             },
             "USDC-USDT": {
                 "fee": 300,
                 "pairAddress": "0x4B1F1e2435A9C96f7330FAea190Ef6A7C8D70001",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "398277764220",
-                "resY": "398658572634"
+                "resX": "393444543557",
+                "resY": "392545277020"
             },
             "USDC-WETH": {
                 "fee": 300,
                 "pairAddress": "0x34965ba0ac2451A34a0471F04CCa3F990b8dea27",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "972323382344",
-                "resY": "782301831890351851497"
-            },
-            "USDC-WBTC": {
-                "fee": 300,
-                "pairAddress": "0xD02b870c556480491c70AaF98C297fddd93F6f5C",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "591627",
-                "resY": "99387192"
+                "resX": "972244671557",
+                "resY": "769226736199170505569"
             },
             "USDC-SUSHI": {
                 "fee": 300,
                 "pairAddress": "0xE15E9d2a5af5c1d3524bBC594DDc4a7D80aD27CD",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "2353560033933966113994",
-                "resY": "2717716109"
-            },
-            "USDC-LINK": {
-                "fee": 300,
-                "pairAddress": "0x8bC8e9F621EE8bAbda8DC0E6Fc991aAf9BF8510b",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "36732276",
-                "resY": "5343985673899244694"
-            },
-            "USDC-GHST": {
-                "fee": 300,
-                "pairAddress": "0x224DcAcf75a4cebf1959daC1aE9761bA6753D87f",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "27491702",
-                "resY": "26756992482464451711"
+                "resX": "2374428898436531868477",
+                "resY": "2695651991"
             },
             "USDC-DPI": {
                 "fee": 300,
                 "pairAddress": "0x9F0c603476C3E41de989FC830E63961b23255332",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-                "resX": "729171796",
-                "resY": "10252785022353417498"
-            },
-            "USDC-CRV": {
-                "fee": 300,
-                "pairAddress": "0x982c529Fd47CBa8f627c2aBE30286c69aB593501",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "4960991249424554854",
-                "resY": "3254967"
-            },
-            "USDC-BAL": {
-                "fee": 300,
-                "pairAddress": "0x0f0810Ee18EE7e2E0F6E8196b11452fF55cE9082",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "resX": "24523465",
-                "resY": "4193856537865279544"
+                "resX": "722117654",
+                "resY": "10316682711909866802"
             },
             "USDC-miMATIC": {
                 "fee": 300,
                 "pairAddress": "0x8ceed6619aeFFD5476315b90eb081485dA2aEbCA",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "37648356079",
-                "resY": "37861589059037677482904"
-            },
-            "USDC-jEUR": {
-                "fee": 300,
-                "pairAddress": "0x1D1c55667D80975697D7F0d08878Cc180e12C48C",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-                "resX": "1047753",
-                "resY": "1018731663601367176"
-            },
-            "USDC-Aave": {
-                "fee": 300,
-                "pairAddress": "0x3E9a0586088caEb2aDFf32B0C06CfA44151c7a5B",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "85368863",
-                "resY": "1388111051406429364"
-            },
-            "USDC-stMATIC": {
-                "fee": 300,
-                "pairAddress": "0xB353e7375b608d519A9389105F65a68eF5a6Ad50",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-                "resX": "1",
-                "resY": "1284874889"
+                "resX": "37635977489",
+                "resY": "37877189393338442885840"
             },
             "USDT-WETH": {
                 "fee": 300,
                 "pairAddress": "0xc2755915a85C6f6c1C0F3a86ac8C058F11Caa9C9",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "78936038310225080901",
-                "resY": "98116813217"
-            },
-            "USDT-WBTC": {
-                "fee": 300,
-                "pairAddress": "0xb1dD5322BE07fb2A40ae7fbbBac96781Ca2B0602",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "2792",
-                "resY": "468405"
-            },
-            "USDT-SUSHI": {
-                "fee": 300,
-                "pairAddress": "0xF19144BC9B66bD9B999167B41cCb17D473419d1D",
-                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "65184141633212123654",
-                "resY": "74907055"
-            },
-            "USDT-LINK": {
-                "fee": 300,
-                "pairAddress": "0x43C355d9cE77f91b7E1A314E258246D155100be9",
-                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "757992026669878",
-                "resY": "4793"
-            },
-            "USDT-GHST": {
-                "fee": 300,
-                "pairAddress": "0x6436f5e99Be830D10387299FfdA076e87a06986B",
-                "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "3214172408020151460",
-                "resY": "3244015"
-            },
-            "USDT-CRV": {
-                "fee": 300,
-                "pairAddress": "0x5c26E61C6153805B073beb185319De61aDBDcB98",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "107565149361810095468",
-                "resY": "71426823"
-            },
-            "USDT-BAL": {
-                "fee": 300,
-                "pairAddress": "0xE74DdD4692eB3dB446A7b9FcB4F2cC9946271dB4",
-                "token0": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "133659774694297890",
-                "resY": "786144"
-            },
-            "USDT-miMATIC": {
-                "fee": 300,
-                "pairAddress": "0x46563A38425BA0aaa406825AB992B704aCc894b0",
-                "token0": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "26883513198829",
-                "resY": "26"
-            },
-            "USDT-Aave": {
-                "fee": 300,
-                "pairAddress": "0xa543Ba3fd79a03788e5521a0Ce48B3F2Bf93b2c1",
-                "token0": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "14671407",
-                "resY": "237966572101178559"
+                "resX": "77705390380943733504",
+                "resY": "98189359541"
             },
             "WETH-WBTC": {
                 "fee": 300,
                 "pairAddress": "0xE62Ec2e799305E0D367b0Cc3ee2CdA135bF89816",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "1621984620",
-                "resY": "220043330101662557660"
+                "resX": "1609016719",
+                "resY": "217904784431889120969"
             },
             "WETH-SUSHI": {
                 "fee": 300,
                 "pairAddress": "0xb5846453B67d0B4b4Ce655930Cf6E4129F4416D7",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "14304862941136722256839",
-                "resY": "13288013029680538106"
+                "resX": "14335283585064371705928",
+                "resY": "12944859136111211382"
             },
             "WETH-LINK": {
                 "fee": 300,
                 "pairAddress": "0x74D23F21F780CA26B47Db16B0504F2e3832b9321",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "21625292828961999799641",
-                "resY": "120285492022879829001"
+                "resX": "21774267088399768601137",
+                "resY": "116040515097107801756"
             },
             "WETH-GHST": {
                 "fee": 300,
                 "pairAddress": "0x63894e0dfABA4024cd839D418cF1bED16B62f34B",
                 "token0": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "34247200460590436518",
-                "resY": "28402101584899845"
+                "resX": "34844985528768729601",
+                "resY": "27916816137520422"
             },
             "WETH-DPI": {
                 "fee": 300,
                 "pairAddress": "0xCb3716006b3B468624b2A246505ec0d22673e077",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-                "resX": "667539330690851719",
-                "resY": "11660921920430338994"
+                "resX": "653662533839975928",
+                "resY": "11912424458232059589"
             },
             "WETH-CRV": {
                 "fee": 300,
                 "pairAddress": "0x396E655C309676cAF0acf4607a868e0CDed876dB",
                 "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "202549025488837139604061",
-                "resY": "107248117945529775256"
+                "resX": "204680871185536711024261",
+                "resY": "102136962197192179822"
             },
             "WETH-BAL": {
                 "fee": 300,
                 "pairAddress": "0xc67136e235785727a0d3B5Cfd08325327b81d373",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "resX": "460168186387823237",
-                "resY": "97272837130983520023"
+                "resX": "458786552638430120",
+                "resY": "97611475937749601341"
             },
             "WETH-Aave": {
                 "fee": 300,
                 "pairAddress": "0x2813D43463C374a680f235c428FB1D7f08dE0B69",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "129853355214175975694",
-                "resY": "2634475451841765776420"
-            },
-            "WBTC-SUSHI": {
-                "fee": 300,
-                "pairAddress": "0x3BfFD4Ca16197Ad48DC610c41a022664905b7fFC",
-                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "135833266475910001412",
-                "resY": "938940"
-            },
-            "WBTC-LINK": {
-                "fee": 300,
-                "pairAddress": "0x67A81a470cC17257363e38AFC412A45B756fC6F9",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "5353",
-                "resY": "122775422280500232"
-            },
-            "WBTC-DPI": {
-                "fee": 300,
-                "pairAddress": "0x6E89F5a8D1f4871ae012173A7B2E523a6cdcCd9A",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-                "resX": "111317",
-                "resY": "264277177174170060"
-            },
-            "WBTC-jEUR": {
-                "fee": 300,
-                "pairAddress": "0xe795093243B38D15C653d3227e85f78f344Bce5B",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-                "resX": "1",
-                "resY": "18646715529"
-            },
-            "WBTC-Aave": {
-                "fee": 300,
-                "pairAddress": "0xba9C0286FD6D2535c5b3CCa5353743A8BFe45241",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "12",
-                "resY": "30602654614754"
+                "resX": "125947059744565848931",
+                "resY": "2656385736688782599027"
             },
             "SUSHI-LINK": {
                 "fee": 300,
                 "pairAddress": "0x4eab9556BD46F552691fe75c16d1C2eD1622dF51",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "201830857172842324124",
-                "resY": "33793421305573821866"
+                "resX": "200421250774761480286",
+                "resY": "34036244960060445429"
             },
             "SUSHI-GHST": {
                 "fee": 300,
@@ -1907,8 +1267,8 @@
                 "pairAddress": "0x429b932FaB6F85Aa41abdF65C0095c910D3a65dd",
                 "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "1579247535007066205",
-                "resY": "31338500293280592"
+                "resX": "51062531353508403784",
+                "resY": "979899619308089209"
             },
             "LINK-CRV": {
                 "fee": 300,
@@ -1931,8 +1291,8 @@
                 "pairAddress": "0x386d5B630Abe3D0B57f1610Ffb171042Ca7C2593",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "5446118801385717482",
-                "resY": "603213453267360446"
+                "resX": "5380208915909719130",
+                "resY": "610625314466585489"
             },
             "GHST-Aave": {
                 "fee": 300,
@@ -1947,8 +1307,8 @@
                 "pairAddress": "0x1a45a8DE4D836cD7549b7F2C1B69e141f08c9051",
                 "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
                 "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "179365687274578521024",
-                "resY": "119070218222301313947"
+                "resX": "182207092813549752929",
+                "resY": "117221482010699916082"
             },
             "BAL-Aave": {
                 "fee": 300,
@@ -1972,64 +1332,48 @@
                 "pairAddress": "0xb965c131f1C48d89B1760860b782D2aCDF87273b",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "110758298315101908366504",
-                "resY": "100006426570"
+                "resX": "111100986871725830688365",
+                "resY": "99226598416"
             },
             "WMATIC-USDT": {
                 "fee": 170,
                 "pairAddress": "0xa789324E64268C5385eA7678435Fa83532705B0F",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "8351714345219244015257",
-                "resY": "7533352979"
+                "resX": "8125822100340467210432",
+                "resY": "7255229587"
             },
             "WMATIC-stMATIC": {
                 "fee": 170,
                 "pairAddress": "0x0404f9B850Df6fabdE06d4C8392AFf1a4E79a47B",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-                "resX": "275371098635587186622837",
-                "resY": "262184236466404788846933"
+                "resX": "273710358344788681663112",
+                "resY": "260905029213417706216717"
             },
             "USDC-USDT": {
                 "fee": 170,
                 "pairAddress": "0x384c1b95027B73a98FE31Ea5B4B7b031b9ddD724",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "275280984433",
-                "resY": "275666632870"
+                "resX": "174914499856",
+                "resY": "175005686363"
             },
             "USDC-WETH": {
                 "fee": 170,
                 "pairAddress": "0x8C26252B14F9b071585B81b240C4ae2176E8cD3C",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "561800166731",
-                "resY": "451514853793285434986"
+                "resX": "565003334925",
+                "resY": "446617144617252137752"
             },
             "USDC-WBTC": {
                 "fee": 170,
                 "pairAddress": "0x1aEc8fF1C39c34338327A32bBb35011432614172",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "2818259309",
-                "resY": "474809097762"
-            },
-            "USDT-WETH": {
-                "fee": 170,
-                "pairAddress": "0x5adb38019452c5deEBEe4267dD2c84b5BB8682C4",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "65253583855173",
-                "resY": "82519"
-            },
-            "USDT-WBTC": {
-                "fee": 170,
-                "pairAddress": "0x53Eb96B575fD63589163448f39abD6F426702c69",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "412",
-                "resY": "68696"
+                "resX": "2799800792",
+                "resY": "477848760026"
             }
         }
     },
@@ -2041,40 +1385,32 @@
                 "pairAddress": "0x9cE65ae286e74f1268D19aB9b25f102C25DbDCb4",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "24793557093921599645004",
-                "resY": "22402253659556256808439"
+                "resX": "24959478528080736695694",
+                "resY": "22296350379918316620525"
             },
             "WMATIC-USDC": {
                 "fee": 240,
                 "pairAddress": "0x8A4CEb4DffA238539C5d62Ce424980e8fdb21EBc",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "33765978193071450213291",
-                "resY": "30456143394"
+                "resX": "33946272061360642955942",
+                "resY": "30348118235"
             },
             "WMATIC-USDT": {
                 "fee": 240,
                 "pairAddress": "0x4dB1087154Cd5B33fa275A88b183619f1a6F6614",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "28829771373332939028496",
-                "resY": "26029345271"
+                "resX": "29038744529020331894564",
+                "resY": "25900886370"
             },
             "WMATIC-WETH": {
                 "fee": 240,
                 "pairAddress": "0xC4e90AE0298E0e7BE0102Cce64089231e1E2D67C",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "24504479346756086960149",
-                "resY": "17825154756756466473"
-            },
-            "WMATIC-WBTC": {
-                "fee": 240,
-                "pairAddress": "0x3B02A89628A375FAf4FC5eC83566801E9d9DCE02",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "16541168544230793064570",
-                "resY": "88595747"
+                "resX": "24828836577806982365546",
+                "resY": "17594105431644542474"
             },
             "WMATIC-GHST": {
                 "fee": 240,
@@ -2089,96 +1425,64 @@
                 "pairAddress": "0xC8174d091c288FF78De98303c2973140Cbcf3B23",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "20072777023",
-                "resY": "20070712109005897334468"
+                "resX": "20091427016",
+                "resY": "20087624083622230744005"
             },
             "DAI-USDT": {
                 "fee": 240,
                 "pairAddress": "0x8432E5C41C5c9Fd2A4c0c7deF017eFB4F89c1327",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "13054891907793871927204",
-                "resY": "13049179887"
+                "resX": "13064805981531132270324",
+                "resY": "13060883233"
             },
             "DAI-WETH": {
                 "fee": 240,
                 "pairAddress": "0x2b1B874cB749472b963A80c5214b3Cb3fD7021a8",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "103282308797584590",
-                "resY": "127672440612373261947"
+                "resX": "101980911904951829",
+                "resY": "129309416563404301982"
             },
             "DAI-WBTC": {
                 "fee": 240,
                 "pairAddress": "0xe27855Cce2ddC3a2E44f1Ad3CDC3eC6ce4903BBa",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "156940793",
-                "resY": "26368761387861834300343"
+                "resX": "155733971",
+                "resY": "26581351525114106436007"
             },
             "USDC-USDT": {
                 "fee": 240,
                 "pairAddress": "0x97B4f2797cC903D76F9b8ff41A94286F0B16198e",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "14173467855",
-                "resY": "14184162844"
+                "resX": "14181171415",
+                "resY": "14196855729"
             },
             "USDC-WETH": {
                 "fee": 240,
                 "pairAddress": "0x273c39ebd4e0c49f8Cc6E5A2B3c0e4ca355B5352",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "136321777",
-                "resY": "110550118806969320"
-            },
-            "USDC-WBTC": {
-                "fee": 240,
-                "pairAddress": "0x5A83F4bf297f716e55c7A658a88d992756342c25",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "78",
-                "resY": "13880"
+                "resX": "138423338",
+                "resY": "108878666141519793"
             },
             "USDT-WETH": {
                 "fee": 240,
                 "pairAddress": "0xd534a6b00e45bDE6F5fDD7F940491c998743329e",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "103957216567030423",
-                "resY": "128436211"
-            },
-            "USDT-WBTC": {
-                "fee": 240,
-                "pairAddress": "0x0509083749716B68f0fdB490a59Ca62F2cfFEbB9",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "57907523",
-                "resY": "9730856504"
+                "resX": "102561214218838920",
+                "resY": "130191104"
             },
             "WETH-WBTC": {
                 "fee": 240,
                 "pairAddress": "0xbbBd54c1CD649288d2e584917778eEccD8D8254d",
                 "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "181174929",
-                "resY": "24598926311642562925"
-            },
-            "WETH-LINK": {
-                "fee": 240,
-                "pairAddress": "0x1Dbd21DB892e95D260Dda72c07A1337EEc761BA0",
-                "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "13935",
-                "resY": "73"
-            },
-            "WETH-CRV": {
-                "fee": 240,
-                "pairAddress": "0xc96E90C10b222c0451fBc29be4c726Af1178632A",
-                "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "53388",
-                "resY": "19"
+                "resX": "181692600",
+                "resY": "24529635340313013954"
             }
         }
     },
@@ -2198,32 +1502,16 @@
                 "pairAddress": "0xe0ce1D5380681d0d944b91C5A56D2B56e3cc93Dc",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "9802930038040112017724",
-                "resY": "8827134595"
-            },
-            "WMATIC-USDT": {
-                "fee": 250,
-                "pairAddress": "0x3b211C86C533CE0650A7F813a8F034E4B901B478",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "602185244066535273",
-                "resY": "541145"
+                "resX": "9840442441349344571960",
+                "resY": "8794882450"
             },
             "WMATIC-WETH": {
                 "fee": 250,
                 "pairAddress": "0x0Dfbf1A50bdcB570Bd0fF7Bb307313B553a02598",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "12075618189406660006971",
-                "resY": "8758304755202016796"
-            },
-            "WMATIC-WBTC": {
-                "fee": 250,
-                "pairAddress": "0x5e1112BB19D2e39c27467f7211670b7c09f6FD6F",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "71143722336711",
-                "resY": "1"
+                "resX": "12202984206278438819438",
+                "resY": "8667904882292644593"
             },
             "WMATIC-Aave": {
                 "fee": 250,
@@ -2233,14 +1521,6 @@
                 "resX": "10414054847889294",
                 "resY": "86728658227546"
             },
-            "WMATIC-MaticX": {
-                "fee": 250,
-                "pairAddress": "0x616Fa5E9AA694D742503Cd497f634fdB5E06A70e",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
-                "resX": "1019",
-                "resY": "982"
-            },
             "DAI-USDC": {
                 "fee": 250,
                 "pairAddress": "0x4bb452B8b74864F44913F100Bee280dAA61ac298",
@@ -2249,109 +1529,53 @@
                 "resX": "5681946699",
                 "resY": "5681260496167146554688"
             },
-            "DAI-USDT": {
-                "fee": 250,
-                "pairAddress": "0x5C3Ad802c4fb884DCff73F0abccDCB9Cbbab1753",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "31364645922941",
-                "resY": "32"
-            },
             "DAI-WETH": {
                 "fee": 250,
                 "pairAddress": "0x73A7b621090b8d7584cc40D1B1F016fB831949A3",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "4316725645853476926",
-                "resY": "5356074849269701603817"
-            },
-            "DAI-miMATIC": {
-                "fee": 250,
-                "pairAddress": "0x6994fDB7D7a62ECa5fE285CB8Da2Ed4302911f18",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "995",
-                "resY": "1006"
+                "resX": "4275871675101247536",
+                "resY": "5407937309505884773827"
             },
             "USDC-USDT": {
                 "fee": 250,
                 "pairAddress": "0x42286296C3edE3f6a0ec4e687939b017408Cf321",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "4260970416",
-                "resY": "4265099213"
+                "resX": "4261777197",
+                "resY": "4264294225"
             },
             "USDC-WETH": {
                 "fee": 250,
                 "pairAddress": "0xEeFe518d89A49328580480fA3d90073Bda074d32",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "5021542274",
-                "resY": "4050942030342092827"
-            },
-            "USDC-WBTC": {
-                "fee": 250,
-                "pairAddress": "0xf7F07072160EB53A71A9E0cA082Dc02Fe75FFA9F",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "286585",
-                "resY": "48177183"
-            },
-            "USDC-miMATIC": {
-                "fee": 250,
-                "pairAddress": "0x4e2d0B3e3DED02B296960B389EAca870ff5031A8",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "1",
-                "resY": "1002198643"
-            },
-            "USDT-WETH": {
-                "fee": 250,
-                "pairAddress": "0x49DBFD108D828A148446cdF17e9dEDca1eb21dB1",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "17020865",
-                "resY": "1"
-            },
-            "WETH-WBTC": {
-                "fee": 250,
-                "pairAddress": "0x84D49BeFf6AeCF52C461Eae687d959d64eDf2427",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "44584612",
-                "resY": "6060709507191205306"
-            },
-            "WETH-SUSHI": {
-                "fee": 250,
-                "pairAddress": "0x755fA1b736d7AE646c38907Bf87650E91e2A0a19",
-                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "697328539023",
-                "resY": "2010"
+                "resX": "5069852684",
+                "resY": "4012875345916330070"
             },
             "WETH-LINK": {
                 "fee": 250,
                 "pairAddress": "0x45EA5ce4e764Ae027b64c8DF8F457e168964e026",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "37790302478019396739",
-                "resY": "210479701834686254"
+                "resX": "38394513393234931499",
+                "resY": "207252672336259209"
             },
             "WETH-CRV": {
                 "fee": 250,
                 "pairAddress": "0xce4eB53Cdf8BbC07C8DCc2F7A39984CC929aF15D",
                 "token0": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "1602371448840261961715",
-                "resY": "853100244259422258"
+                "resX": "1648380816490706995898",
+                "resY": "829355976632589721"
             },
             "WETH-Aave": {
                 "fee": 250,
                 "pairAddress": "0x1D7c760a79Ec798CbC5F6e017bAAa445965Daba8",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "10477162468878993",
-                "resY": "207526822559338975"
+                "resX": "10310192922802360",
+                "resY": "210898087586193837"
             }
         }
     },
@@ -2362,21 +1586,13 @@
     {
         "exchange": "polyDexSwap",
         "pairs": {
-            "WMATIC-USDC": {
-                "fee": 100,
-                "pairAddress": "0x230a6F45704037c800C6f4b5bE23D00cf37054d3",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "3381387116070449799",
-                "resY": "3037358"
-            },
             "WMATIC-WETH": {
                 "fee": 100,
                 "pairAddress": "0xdeF834ae4A1198bfec84544Fb374ec7f1314A7C5",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "1599963370649749748332",
-                "resY": "1161661012706435352"
+                "resX": "1621064110113807945717",
+                "resY": "1147033683131862470"
             },
             "WMATIC-Aave": {
                 "fee": 100,
@@ -2391,64 +1607,48 @@
                 "pairAddress": "0x4fa5d5143394E52eeB834E46f34449aa0C5B9507",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1083781144",
-                "resY": "1083329304531945121493"
+                "resX": "582426787",
+                "resY": "582908062930594498716"
             },
             "DAI-USDT": {
                 "fee": 100,
                 "pairAddress": "0x186bFD06dF0BfF94aa078912c3210b00f04EE577",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "789134447558983203675",
-                "resY": "790846339"
+                "resX": "288980985819142164521",
+                "resY": "288545227"
             },
             "DAI-WETH": {
                 "fee": 100,
                 "pairAddress": "0x538a485dE855e9239570aEA1DEf9aDBcBB6Af1F8",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "324769897845462476",
-                "resY": "403207140213178235084"
+                "resX": "714086607952201180",
+                "resY": "904804912226854598814"
             },
             "USDC-USDT": {
                 "fee": 100,
                 "pairAddress": "0xb78906c8a461d6a39A57285C129843E1937c3278",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1272962926",
-                "resY": "1272372021"
+                "resX": "1225490712",
+                "resY": "1226320020"
             },
             "USDC-WETH": {
                 "fee": 100,
                 "pairAddress": "0xBdd5e7d186Ec062CC46C0FB52a48f52827BAF941",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "2082769430",
-                "resY": "1675113362491919733"
+                "resX": "2097472600",
+                "resY": "1663715516336608473"
             },
             "USDT-WETH": {
                 "fee": 100,
                 "pairAddress": "0x737dA5F520b47cb15af413FDF93f036D83113A1c",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "591655780049324857",
-                "resY": "734692090"
-            },
-            "USDT-WBTC": {
-                "fee": 100,
-                "pairAddress": "0xF047c5fEA5e1322AC257d65497e0301F66Fd116C",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "423",
-                "resY": "72737"
-            },
-            "WETH-WBTC": {
-                "fee": 100,
-                "pairAddress": "0xdea6d004C5a2B50d6e35c7b93014D03FeaF03F62",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "4551898",
-                "resY": "620104313624667998"
+                "resX": "979207203698478002",
+                "resY": "1235223886"
             }
         }
     },
@@ -2460,24 +1660,16 @@
                 "pairAddress": "0xc961AC0404f95141573DAe224525Ae936Bd3bf64",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "15614023887794694063804",
-                "resY": "14086091560"
-            },
-            "WMATIC-USDT": {
-                "fee": 180,
-                "pairAddress": "0x50808574F44773951DC40626351A06a984F7311d",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "910995414628570",
-                "resY": "796"
+                "resX": "15696618660239043480542",
+                "resY": "14014283911"
             },
             "WMATIC-WETH": {
                 "fee": 180,
                 "pairAddress": "0xA629252b0e41111a0aA0112aE04CEE4bCeeAe476",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "1028863405690173425863",
-                "resY": "748482178946022376"
+                "resX": "1042011782775073909271",
+                "resY": "739078691297085224"
             },
             "WMATIC-Aave": {
                 "fee": 180,
@@ -2487,37 +1679,21 @@
                 "resX": "7513951757323473",
                 "resY": "68787623276390"
             },
-            "DAI-USDT": {
-                "fee": 180,
-                "pairAddress": "0x295f05aD3F80c41c31b5D40c57eb1f691D5D8a48",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "6698825050966898",
-                "resY": "6699"
-            },
             "USDC-USDT": {
                 "fee": 180,
                 "pairAddress": "0x18f501866FCaA9935367A223b79041e603b3B86E",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "116234886",
-                "resY": "116267017"
+                "resX": "116722101",
+                "resY": "116403804"
             },
             "USDC-WETH": {
                 "fee": 180,
                 "pairAddress": "0xa8fB745919D959fbbDFAB71b88E82BB4E6BA502E",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "1291994116",
-                "resY": "1040914547478871761"
-            },
-            "WETH-WBTC": {
-                "fee": 180,
-                "pairAddress": "0xE205EfC81FF35E659986C433Cc11F13138084926",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "2443",
-                "resY": "323769151640770"
+                "resX": "1304890900",
+                "resY": "1030721449901118847"
             }
         }
     },
@@ -2529,104 +1705,40 @@
                 "pairAddress": "0xD911C52c6724AD980C9a5229082AF2322d812F77",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1044725551617882583528",
-                "resY": "944262008918255427159"
+                "resX": "1051496097333241002931",
+                "resY": "938412863148735035073"
             },
             "WMATIC-USDC": {
                 "fee": 300,
                 "pairAddress": "0xBCC871aD1ce206b0a228C133C3fEd98A7Bc8C4dA",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "1167952769760081574237",
-                "resY": "1050316542"
+                "resX": "1169744867755488945487",
+                "resY": "1048876243"
             },
             "WMATIC-USDT": {
                 "fee": 300,
                 "pairAddress": "0x827ab2cbaFdb21Bb5F475e19d0c0e2197e693cdF",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1064785647070018955451",
-                "resY": "962617030"
+                "resX": "1071272745610045613493",
+                "resY": "956910069"
             },
             "WMATIC-WETH": {
                 "fee": 300,
                 "pairAddress": "0x4deD9b993D2bcf960F6774b32DcB53E58B6453aE",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "484443910505514224689",
-                "resY": "350744254246761614"
-            },
-            "WMATIC-WBTC": {
-                "fee": 300,
-                "pairAddress": "0xf0E020a4675b4776a3Bb22843494ce6b42eBfa0A",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "565380628140719051246",
-                "resY": "3020129"
+                "resX": "488792409381705690152",
+                "resY": "347651909682296196"
             },
             "WMATIC-LINK": {
                 "fee": 300,
                 "pairAddress": "0xaBf61bCc0FA4ae367d4de63b716344c647B74D03",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "1323116780976565255904",
-                "resY": "172049241116545845541"
-            },
-            "WMATIC-GHST": {
-                "fee": 300,
-                "pairAddress": "0xf8A696b0F1D6936AddD546a348CFA75631272607",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "1196",
-                "resY": "842"
-            },
-            "DAI-USDC": {
-                "fee": 300,
-                "pairAddress": "0x2c605f041f984C4D36bED761c6b7eF913F1d25A1",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1",
-                "resY": "1000000000"
-            },
-            "DAI-USDT": {
-                "fee": 300,
-                "pairAddress": "0x3A55a128556CD79Ec4A6438CdFc8cF37e3f72BdD",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "997455800",
-                "resY": "1"
-            },
-            "DAI-WETH": {
-                "fee": 300,
-                "pairAddress": "0xD0e42BAaD81A6C722e51bacbd14e7706B27A45E1",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "23",
-                "resY": "44231"
-            },
-            "DAI-WBTC": {
-                "fee": 300,
-                "pairAddress": "0x109E212079F00E818904330d2333E04A91FAbd47",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1",
-                "resY": "21869323418"
-            },
-            "USDC-USDT": {
-                "fee": 300,
-                "pairAddress": "0x274B6D2e4945Fc8b143A19074F25d98cBeC797D0",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1003",
-                "resY": "1005"
-            },
-            "USDC-WETH": {
-                "fee": 300,
-                "pairAddress": "0xBBE58d133335265243C74B22EEcA854c6826D0CA",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "105",
-                "resY": "100403450642"
+                "resX": "1313009522785715141040",
+                "resY": "173383920260205422907"
             }
         }
     },
@@ -2638,40 +1750,16 @@
                 "pairAddress": "0x3D93261ae1a157E691c8c1476AE379c5eb8f6E33",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "3070039677854201592",
-                "resY": "2739903178004932013"
-            },
-            "WMATIC-USDC": {
-                "fee": 500,
-                "pairAddress": "0xaa1C939a3F266E5EBb31339eBA396E73b51ce758",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "21913085967090360923",
-                "resY": "19547557"
-            },
-            "WMATIC-USDT": {
-                "fee": 500,
-                "pairAddress": "0x39A93D226568b841562566d06379D6e15aCB19fC",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1859822513516521533",
-                "resY": "1667242"
+                "resX": "3019897576538280966",
+                "resY": "2785765864980517339"
             },
             "WMATIC-WETH": {
                 "fee": 500,
                 "pairAddress": "0x462390EA53F70F7570EEB2002c0150aF519f93A9",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "6424710158607440881404",
-                "resY": "4659358719190467849"
-            },
-            "WMATIC-WBTC": {
-                "fee": 500,
-                "pairAddress": "0xC41Ae5E54D006cE309Df5b03fC56f334d1350083",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "40935032065",
-                "resY": "1"
+                "resX": "6496082155819358966828",
+                "resY": "4611986766848050626"
             },
             "WMATIC-SUSHI": {
                 "fee": 500,
@@ -2686,8 +1774,8 @@
                 "pairAddress": "0xe3a5e709C8434275372fEc571380F8838744802C",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "537403759065329541",
-                "resY": "65817198694648004"
+                "resX": "525722793049906209",
+                "resY": "67286931090691596"
             },
             "WMATIC-GHST": {
                 "fee": 500,
@@ -2697,101 +1785,29 @@
                 "resX": "456972276356382620",
                 "resY": "387567547379798269"
             },
-            "DAI-USDC": {
-                "fee": 500,
-                "pairAddress": "0xEea2510d8044b5308ED1aEeA427709eafa5C4d28",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "54008202",
-                "resY": "54274884471264905689"
-            },
             "DAI-USDT": {
                 "fee": 500,
                 "pairAddress": "0xE42301C383Ca8bF9BC8780036f01F434CeFa5466",
                 "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "107357680782767879725",
-                "resY": "107213705"
-            },
-            "USDC-USDT": {
-                "fee": 500,
-                "pairAddress": "0x5dfC1721cEF19ce2Cef625f488d77faB86802FD5",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "95421407",
-                "resY": "95727616"
+                "resX": "107572680782767879725",
+                "resY": "107000492"
             },
             "USDC-WETH": {
                 "fee": 500,
                 "pairAddress": "0x1Edb2D8f791D2a51D56979bf3A25673D6E783232",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "13666045038",
-                "resY": "10985751296127441451"
-            },
-            "USDC-WBTC": {
-                "fee": 500,
-                "pairAddress": "0xFf1E3C15f765bA4225249F5caA740188a6801b23",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "88",
-                "resY": "12822"
-            },
-            "USDC-LINK": {
-                "fee": 500,
-                "pairAddress": "0x2fe230ca99829A297eA932B8a424dEc86B9Ab200",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "33",
-                "resY": "2105309327331"
-            },
-            "USDC-GHST": {
-                "fee": 500,
-                "pairAddress": "0x8E8BB1e8800De91d0dDA2A63f2B914Fa41294D1c",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-                "resX": "1",
-                "resY": "44916309164"
-            },
-            "USDC-miMATIC": {
-                "fee": 500,
-                "pairAddress": "0xf5c38dbF2E323e067FD089a111D2C93495cE92C5",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-                "resX": "15937",
-                "resY": "16081301035878446"
-            },
-            "USDT-WETH": {
-                "fee": 500,
-                "pairAddress": "0x103b6d489824B087f739ca1997994FD5DA49aAa0",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "11543130656761",
-                "resY": "13910"
-            },
-            "WETH-WBTC": {
-                "fee": 500,
-                "pairAddress": "0x4282C6b1c21CD1A0C363a70e4292f8Bf4D7c898c",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "29102169",
-                "resY": "3958526358391715292"
-            },
-            "WETH-SUSHI": {
-                "fee": 500,
-                "pairAddress": "0x364D294FAAd964c8560CD126a0118616c4B4E299",
-                "token0": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "14605",
-                "resY": "69"
+                "resX": "13783331942",
+                "resY": "10895412671784627663"
             },
             "WETH-LINK": {
                 "fee": 500,
                 "pairAddress": "0x8959f79a40f30d7D845663Ac06Fc0eFCcdAD5BfE",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "95395244922015552",
-                "resY": "549092093178371"
+                "resX": "96709611817550041",
+                "resY": "541666267396165"
             },
             "WETH-GHST": {
                 "fee": 500,
@@ -2819,40 +1835,24 @@
                 "pairAddress": "0x556d0671657a8D463601347db806db7a3f9E325A",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "7997484604756610434",
-                "resY": "7130154569929078083"
+                "resX": "7898335859030850808",
+                "resY": "7219884569929078083"
             },
             "WMATIC-USDC": {
                 "fee": 250,
                 "pairAddress": "0xcAf7834Cab11e00123D3510ABbBCB912B39ab456",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "9300517232407455267342",
-                "resY": "8377660954"
-            },
-            "WMATIC-USDT": {
-                "fee": 250,
-                "pairAddress": "0x236640eC36e66E5E4D3EB63d0e40893B3110995A",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "1130462475152624742",
-                "resY": "1004870"
+                "resX": "9337434174684259252361",
+                "resY": "8345648411"
             },
             "WMATIC-WETH": {
                 "fee": 250,
                 "pairAddress": "0xD1eC85bB8f3D3aDcB46bA430449966e2883Ba176",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "889220694547013005393",
-                "resY": "643933590091024567"
-            },
-            "WMATIC-WBTC": {
-                "fee": 250,
-                "pairAddress": "0x6c17BdbA740d8B7B2914A96F3C1f70a0c7765c6F",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "26320099610370503",
-                "resY": "136"
+                "resX": "896542618766696453707",
+                "resY": "638703719155366500"
             },
             "WMATIC-SUSHI": {
                 "fee": 250,
@@ -2867,72 +1867,48 @@
                 "pairAddress": "0xAB55c21663E56aC97F40522D3Ff59E53A7A4d3b2",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "1608531009894487387357",
-                "resY": "209646033806373656650"
+                "resX": "1597870280071357071681",
+                "resY": "211098456698022457121"
             },
             "WMATIC-Aave": {
                 "fee": 250,
                 "pairAddress": "0x4485DF5F2B6Bf03935CeE44bf41ba65C06650B84",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "8220330402823303942196",
-                "resY": "121221035098050913737"
+                "resX": "8185638830408417165740",
+                "resY": "121750091320031100099"
             },
             "DAI-USDC": {
                 "fee": 250,
                 "pairAddress": "0x41a0e21Ff4529A604a6293f895a73328F042B6ec",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "1187638075",
-                "resY": "1189089528900295599190"
-            },
-            "DAI-USDT": {
-                "fee": 250,
-                "pairAddress": "0xc84d92D18E2e87F1f56128c7595491686bB6E2A4",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "10048273849295041688",
-                "resY": "9959754"
+                "resX": "1188644633",
+                "resY": "1188085144080039680380"
             },
             "DAI-WETH": {
                 "fee": 250,
                 "pairAddress": "0xE0A297059eCF946C38b78c6de71BcC00cC14953e",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "6121821583893551",
-                "resY": "7544470256163671030"
+                "resX": "6042174012000346",
+                "resY": "7644170256163671030"
             },
             "USDC-USDT": {
                 "fee": 250,
                 "pairAddress": "0xE3014fF72A9a6eC43E0AC8E4E2B94f44486a40eC",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "735903628",
-                "resY": "735396601"
+                "resX": "735910428",
+                "resY": "735389823"
             },
             "USDC-WETH": {
                 "fee": 250,
                 "pairAddress": "0x486305621F07f5b3c598A48c31aaf3756D7095D5",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "3168034822",
-                "resY": "2556191229398721710"
-            },
-            "USDT-WETH": {
-                "fee": 250,
-                "pairAddress": "0xd9939b190001989B8eE7c146429b1D8404Dc6BbD",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "5365519201236511",
-                "resY": "6544806"
-            },
-            "WETH-WBTC": {
-                "fee": 250,
-                "pairAddress": "0x0CA0E033f276B8E97421f8463565f9f32FdE7599",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "51",
-                "resY": "7115485683200"
+                "resX": "3197521326",
+                "resY": "2532942432197380752"
             },
             "WETH-LINK": {
                 "fee": 250,
@@ -2952,56 +1928,40 @@
                 "pairAddress": "0x2F8FD97b6A26e0fFA87635c6527aF1ABf23457a2",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "560248711819829825",
-                "resY": "486508168609769118"
+                "resX": "547570873198555141",
+                "resY": "497806981534948849"
             },
             "WMATIC-USDC": {
                 "fee": 200,
                 "pairAddress": "0x8312A29A91D9Fac706F4d2ADEB1FA4540faD1673",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "24716990420095831074104",
-                "resY": "22293518622"
+                "resX": "24846736971907925465785",
+                "resY": "22182236396"
             },
             "WMATIC-USDT": {
                 "fee": 200,
                 "pairAddress": "0xf7bC741b2086Ca344e78225D06224ffDCd86D110",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "147550339145747022940",
-                "resY": "132375914"
+                "resX": "147624642127071563766",
+                "resY": "132329378"
             },
             "WMATIC-WETH": {
                 "fee": 200,
                 "pairAddress": "0x679B8Ab80F298bF802fB294137765C6386D43dcA",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "4292905965788444914004",
-                "resY": "3120565606954293140"
-            },
-            "WMATIC-WBTC": {
-                "fee": 200,
-                "pairAddress": "0xb20defacdC409C7676caB9b3ac7AC0D4383B0634",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "resX": "430648055159337",
-                "resY": "2"
+                "resX": "4345658272773440843072",
+                "resY": "3082947592932178942"
             },
             "WMATIC-LINK": {
                 "fee": 200,
                 "pairAddress": "0x1ED1d74107D3C07f75B81630a7055a0a7560b804",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "766601112141042359",
-                "resY": "94683100163361274"
-            },
-            "WMATIC-CRV": {
-                "fee": 200,
-                "pairAddress": "0xfEC6F467B2eE93a0Bafb580784314A1001219581",
-                "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                "token1": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-                "resX": "0",
-                "resY": "0"
+                "resX": "752588154216911619",
+                "resY": "96449603116750150"
             },
             "WMATIC-BAL": {
                 "fee": 200,
@@ -3024,24 +1984,16 @@
                 "pairAddress": "0x8E5c5AE2542116b5715b12bb2d391A770a607075",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "10590110714",
-                "resY": "10597484727748169096847"
-            },
-            "DAI-USDT": {
-                "fee": 200,
-                "pairAddress": "0xC2d4A3CE74Baa6Fe41Fe2Df4f91fc122D6928cfd",
-                "token0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "134792472898451525",
-                "resY": "134934"
+                "resX": "10589572279",
+                "resY": "10598092677869522677514"
             },
             "DAI-WETH": {
                 "fee": 200,
                 "pairAddress": "0xaEF35d720C56eF3c259BCCdB6931F331c7f15b3F",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-                "resX": "105748605278087974",
-                "resY": "131367139395192882373"
+                "resX": "104453709577203859",
+                "resY": "133004465409682058003"
             },
             "DAI-BAL": {
                 "fee": 200,
@@ -3056,80 +2008,32 @@
                 "pairAddress": "0x7242e19A0937ac33472febD69462668a4cf5bbC5",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "14784897692",
-                "resY": "14791933974"
+                "resX": "14787951054",
+                "resY": "14786762432"
             },
             "USDC-WETH": {
                 "fee": 200,
                 "pairAddress": "0xd928Ce1d0F2642e44615768761C0F00c23E0d588",
                 "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "525213076",
-                "resY": "421737419549934934"
-            },
-            "USDC-WBTC": {
-                "fee": 200,
-                "pairAddress": "0x30eEf213D4B9C809f5776Ae56cC39f02f19F742f",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "901186",
-                "resY": "151055840"
-            },
-            "USDC-LINK": {
-                "fee": 200,
-                "pairAddress": "0x36dF04d3304B73b816b5A8300Fe51c2f5853fA1B",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-                "resX": "8974192",
-                "resY": "1307317624742032643"
-            },
-            "USDC-BAL": {
-                "fee": 200,
-                "pairAddress": "0xd3d8E8b6A3532245282640AC8b217C9b74EcF29D",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-                "resX": "543001",
-                "resY": "90132605012546314"
-            },
-            "USDC-Aave": {
-                "fee": 200,
-                "pairAddress": "0x145E99a991a1594e76E2ac4f329bFD6aB84A95Bb",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "7968487",
-                "resY": "129859905207690766"
-            },
-            "USDT-WETH": {
-                "fee": 200,
-                "pairAddress": "0x41ff54B8bc443B333AE0476458681ac95725C771",
-                "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "token1": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-                "resX": "77803227340446",
-                "resY": "101312"
-            },
-            "WETH-WBTC": {
-                "fee": 200,
-                "pairAddress": "0x30AdBCAb9Fbb4436109fcf3058D1Af27E6E33F3F",
-                "token0": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "2193957",
-                "resY": "298416917298793277"
+                "resX": "529466777",
+                "resY": "418384891304389692"
             },
             "WETH-LINK": {
                 "fee": 200,
                 "pairAddress": "0x70bF5ffCC6090A8D243FD05485Ec4c084BD10Ae5",
                 "token0": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
                 "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "313694667513878482565",
-                "resY": "1746332291606948234"
+                "resX": "319719874291168756412",
+                "resY": "1713544416128213961"
             },
             "WETH-Aave": {
                 "fee": 200,
                 "pairAddress": "0x58401db5eD194cBA60f2b7D59b9619D54e0B493c",
                 "token0": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
                 "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "77598106420686035",
-                "resY": "1556275426236045244"
+                "resX": "76277294278452831",
+                "resY": "1583307843499627196"
             }
         }
     },
@@ -3149,24 +2053,8 @@
                 "pairAddress": "0x907b6202dceE1AE5D3a9cCd929f736e5857A94Be",
                 "token0": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
                 "token1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "resX": "256040073087420296848",
-                "resY": "229755023"
-            },
-            "USDC-WETH": {
-                "fee": 100,
-                "pairAddress": "0xF086175A42226209DE3102270636FB47d72C1E98",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-                "resX": "19089127",
-                "resY": "15494792824430068"
-            },
-            "USDC-Aave": {
-                "fee": 100,
-                "pairAddress": "0x0086BBde1ED9bC4E8eb7C6D120f5d8bB5cba31aC",
-                "token0": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                "token1": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-                "resX": "1569",
-                "resY": "26584922401823"
+                "resX": "256149781948828026887",
+                "resY": "229673797"
             }
         }
     }

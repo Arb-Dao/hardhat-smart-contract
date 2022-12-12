@@ -4,6 +4,10 @@ import {
     uniswapV3Quoter,
     uniswapV3SpotPrice,
 } from "../helper-functions/uniswap-helper"
+import {
+    firstPartOfPath,
+    uniSwapV2GetAmountIn,
+} from "../helper-functions/router"
 import { ethers } from "ethers"
 
 const main = async function () {
@@ -35,6 +39,18 @@ const main = async function () {
     // console.log(
     //     `Te price calculated by Spot price for V3 compatible exchanges ${price[3000]}`
     // )
+    const baseToken = "wmatic",
+        quoteToken = "dai"
+    const ans = await firstPartOfPath(baseToken, quoteToken)
+    console.log(ans)
+
+    // const ans = uniSwapV2GetAmountIn(
+    //     ethers.BigNumber.from("105171739720660269172"),
+    //     ethers.BigNumber.from("131632697608753270096107"),
+    //     ethers.utils.parseEther("1200"),
+    //     0
+    // )
+    // console.log(ans)
 }
 
 main()
