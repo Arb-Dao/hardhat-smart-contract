@@ -60,12 +60,6 @@
         "Fee": 30
     },
     {
-        "name": "polyDexSwap",
-        "Factory": "0xEAA98F7b5f7BfbcD1aF14D0efAa9d9e68D82f640",
-        "RouterV02": "0xC60aE14F2568b102F8Ca6266e8799112846DD088",
-        "Fee": 10
-    },
-    {
         "name": "DinoSwap",
         "Factory": "0x624Ccf581371F8A4493e6AbDE46412002555A1b6",
         "RouterV02": "0x6AC823102CB347e1f5925C634B80a98A3aee7E03",
