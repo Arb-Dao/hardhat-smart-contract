@@ -6,7 +6,6 @@ import { abi as IERC20 } from "../../node_modules/@uniswap/v3-core/artifacts/con
 import tokenListJSON from "../json-files/token-list.json"
 
 import { ethers } from "hardhat"
-import { BigNumber } from "ethers"
 
 import fs from "fs"
 

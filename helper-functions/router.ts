@@ -7,11 +7,219 @@ import uniswapV2CompatibleJSON from "./json-files/exchanges-uniswap-v2-compatibl
 
 import BigNumber from "bignumber.js"
 import { ethers } from "ethers"
+import fs from "fs"
+import { uniswapV2Quoter } from "./uniswap-helper"
 
-export const routingPathMaker = function (
-    baseToken: string,
-    quoteToken: string
-) {}
+const runArb = async function () {
+    while (true) {}
+}
+
+/**
+ * @dev This function give the path and amounts
+ * @param path String of token which you want to do swap
+ * @notice the tokens list can be both token symbol or token address
+ * @notice this function has 18 decimals precision
+ * @return path for the base token to quote token and amounts
+ */
+export const routingPathMaker = async function (path: string[]) {
+    let frontEndOutput: any = {},
+        insidePath: any = {},
+        amountLeft: ethers.BigNumber = ethers.BigNumber.from("0"),
+        tokenLeft: ethers.BigNumber = ethers.BigNumber.from("0"),
+        totalIn: ethers.BigNumber = ethers.BigNumber.from("0")
+
+    let baseDecimal = ethers.BigNumber.from(tokenDecimals(path[0]))
+    if (path[0].length === 42) {
+        for (let ii = 0; ii < path.length; ii++) {
+            path[ii] = tokenNameAddressConvertor(path[ii])
+        }
+    }
+    let result = await firstPartOfPath(path[0], path[1])
+    insidePath[`from`] = path[0]
+    insidePath[`to`] = path[1]
+    for (let j = 0; j < result.length; j += 4) {
+        for (let jj = 0; jj < uniswapV2CompatibleJSON.length; jj++) {
+            if (uniswapV2CompatibleJSON[jj].RouterV02 === result[j + 2]) {
+                insidePath[`${uniswapV2CompatibleJSON[jj].name}`] =
+                    ethers.BigNumber.from(result[j + 3])
+                        .mul(ethers.BigNumber.from("10").pow(baseDecimal))
+                        .div(
+                            ethers.BigNumber.from("10").pow(
+                                ethers.BigNumber.from("18")
+                            )
+                        )
+                        .toString()
+                const tokenOut = await uniswapV2Quoter(
+                    ethers.BigNumber.from(result[j + 3])
+                        .mul(ethers.BigNumber.from("10").pow(baseDecimal))
+                        .div(
+                            ethers.BigNumber.from("10").pow(
+                                ethers.BigNumber.from("18")
+                            )
+                        ),
+                    [path[0], path[1]],
+                    [result[j + 2]]
+                )
+                totalIn = totalIn.add(
+                    ethers.BigNumber.from(result[j + 3])
+                        .mul(ethers.BigNumber.from("10").pow(baseDecimal))
+                        .div(
+                            ethers.BigNumber.from("10").pow(
+                                ethers.BigNumber.from("18")
+                            )
+                        )
+                )
+                tokenLeft = tokenLeft.add(tokenOut[0][tokenOut[0].length - 1])
+                insidePath["TotalIn"] = totalIn.toString()
+                insidePath["TotalOut"] = tokenLeft.toString()
+            }
+        }
+    }
+
+    frontEndOutput[`path_${0}`] = insidePath
+    // console.log(insidePath)
+
+    /* __________ export to Json parts __________ */
+    const jsonDataString = JSON.stringify(frontEndOutput)
+    fs.writeFileSync(
+        "./helper-functions/json-files/output-for-front-end.json",
+        jsonDataString,
+        {
+            encoding: "utf8",
+        }
+    )
+
+    for (let i = 1; i < path.length - 1; i++) {
+        insidePath = {}
+        amountLeft = tokenLeft
+        tokenLeft = ethers.BigNumber.from("0")
+        totalIn = ethers.BigNumber.from("0")
+        const baseDecimal = ethers.BigNumber.from(tokenDecimals(path[i]))
+        if (path[1].length === 42) {
+            for (let ii = 0; ii < path.length; ii++) {
+                path[ii] = tokenNameAddressConvertor(path[ii])
+            }
+        }
+        const result = await firstPartOfPath(path[i], path[i + 1])
+        insidePath[`from`] = path[i]
+        insidePath[`to`] = path[i + 1]
+        for (let j = 0; j < result.length; j += 4) {
+            for (let jj = 0; jj < uniswapV2CompatibleJSON.length; jj++) {
+                if (uniswapV2CompatibleJSON[jj].RouterV02 === result[j + 2]) {
+                    if (
+                        amountLeft.gte(
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                )
+                        )
+                    ) {
+                        insidePath[`${uniswapV2CompatibleJSON[jj].name}`] =
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                )
+                                .toString()
+                        amountLeft = amountLeft.sub(
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                )
+                        )
+                        const tokenOut = await uniswapV2Quoter(
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                ),
+                            [path[i], path[i + 1]],
+                            [result[j + 2]]
+                        )
+                        totalIn = totalIn.add(
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                )
+                        )
+                        tokenLeft = tokenLeft.add(
+                            tokenOut[0][tokenOut[0].length - 1]
+                        )
+                    } else if (amountLeft.isZero()) {
+                        break
+                    } else {
+                        insidePath[`${uniswapV2CompatibleJSON[jj].name}`] =
+                            amountLeft.toString()
+
+                        const tokenOut = await uniswapV2Quoter(
+                            amountLeft,
+                            [path[i], path[i + 1]],
+                            [result[j + 2]]
+                        )
+
+                        amountLeft = ethers.BigNumber.from("0")
+                        tokenLeft = tokenLeft.add(
+                            tokenOut[0][tokenOut[0].length - 1]
+                        )
+                        totalIn = totalIn.add(
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                )
+                        )
+                        tokenLeft = tokenLeft.add(
+                            tokenOut[0][tokenOut[0].length - 1]
+                        )
+                        insidePath["TotalIn"] = totalIn.toString()
+                        insidePath["TotalOut"] = tokenLeft.toString()
+                    }
+                }
+            }
+        }
+
+        frontEndOutput[`path_${i}`] = insidePath
+        // console.log(insidePath)
+        console.log(frontEndOutput)
+
+        /* __________ export to Json parts __________ */
+        const jsonDataString = JSON.stringify(frontEndOutput)
+        fs.writeFileSync(
+            "./helper-functions/json-files/output-for-front-end.json",
+            jsonDataString,
+            {
+                encoding: "utf8",
+            }
+        )
+    }
+}
 
 /**
  * @dev This function give the path and amounts
@@ -53,7 +261,7 @@ export const firstPartOfPath = async function (
         .div(resBase)
         .div(ten.pow(quoteDecimal))
 
-    console.log(`average price is ${averagePriceV2.toString()}`)
+    // console.log(`average price is ${averagePriceV2.toString()}`)
 
     for (const [key, value] of Object.entries(price)) {
         if (value.length > 1) {
@@ -61,8 +269,8 @@ export const firstPartOfPath = async function (
             const targetPrice = ethers.BigNumber.from(value[0]).sub(
                 averagePriceV2
             )
-            console.log(`price difference  of${key} is ${targetPrice}`)
-            console.log(`price of of${key} is ${value[0]}`)
+            // console.log(`price difference  of${key} is ${targetPrice}`)
+            // console.log(`price of of${key} is ${value[0]}`)
 
             let router: string, fee: string
             for (let i = 0; i < uniswapV2CompatibleJSON.length; i++) {
@@ -96,7 +304,7 @@ export const firstPartOfPath = async function (
             }
         }
     }
-    console.log(structV2)
+    return structV2
 }
 
 /**

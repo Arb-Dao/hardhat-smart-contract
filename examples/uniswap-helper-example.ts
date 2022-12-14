@@ -6,6 +6,7 @@ import {
 } from "../helper-functions/uniswap-helper"
 import {
     firstPartOfPath,
+    routingPathMaker,
     uniSwapV2GetAmountIn,
 } from "../helper-functions/router"
 import { ethers } from "ethers"
@@ -39,10 +40,10 @@ const main = async function () {
     // console.log(
     //     `Te price calculated by Spot price for V3 compatible exchanges ${price[3000]}`
     // )
-    const baseToken = "wmatic",
-        quoteToken = "dai"
-    const ans = await firstPartOfPath(baseToken, quoteToken)
-    console.log(ans)
+    // const baseToken = "wmatic",
+    //     quoteToken = "dai"
+    // const ans = await firstPartOfPath(baseToken, quoteToken)
+    // console.log(ans)
 
     // const ans = uniSwapV2GetAmountIn(
     //     ethers.BigNumber.from("105171739720660269172"),
@@ -51,6 +52,8 @@ const main = async function () {
     //     0
     // )
     // console.log(ans)
+
+    const ans = await routingPathMaker(["weth", "usdt", "weth"])
 }
 
 main()
