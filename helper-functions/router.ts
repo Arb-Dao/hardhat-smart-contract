@@ -1,17 +1,114 @@
+import { ArbDao } from "../typechain-types/"
+import { abi as IERC20 } from "../node_modules/@uniswap/v3-core/artifacts/contracts/interfaces/IERC20Minimal.sol/IERC20Minimal.json"
 import { spotPricePromise } from "./dev-tools/spot-price-promises"
 import {
     tokenDecimals,
     tokenNameAddressConvertor,
 } from "./dev-tools/token-name-address-conversion"
 import uniswapV2CompatibleJSON from "./json-files/exchanges-uniswap-v2-compatible.json"
+import tokenListJson from "./json-files/token-list.json"
 
 import BigNumber from "bignumber.js"
-import { ethers } from "ethers"
+import { ethers, network } from "hardhat"
 import fs from "fs"
 import { uniswapV2Quoter } from "./uniswap-helper"
+import { networkConfig } from "../helper-hardhat-config"
 
-const runArb = async function () {
-    while (true) {}
+const abiCoder = new ethers.utils.AbiCoder()
+
+export const runArb = async function () {
+    const address = "0x066e7a421Fdd36f2263938aB328D8b2F09d9fCE0"
+    await network.provider.request({
+        method: "hardhat_impersonateAccount",
+        params: [address],
+    })
+    await network.provider.send("hardhat_setBalance", [
+        address,
+        "0x3635C9ADC5DEAFFFFF",
+    ])
+    const deployer = await ethers.getSigner(address)
+    const arbDaoFactory = await ethers.getContractFactory("ArbDao", deployer)
+    const args: any = networkConfig[137].AaveV3poolAddressesProvider
+    const arbDao = (await arbDaoFactory.deploy(args)) as ArbDao
+    await arbDao.deployed()
+    console.log(`arb dao deployed at ${arbDao.address}`)
+    const token0Contract = await ethers.getContractAt(
+        IERC20,
+        "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        deployer
+    )
+
+    await token0Contract.transfer(arbDao.address, ethers.utils.parseEther("1"))
+
+    while (true) {
+        for (const token0 of Object.keys(tokenListJson)) {
+            for (const token1 of Object.keys(tokenListJson)) {
+                if (token1 === token0) continue
+                console.log(
+                    `Ckeck for opportunity ${token0} to ${token1} to ${token0} `
+                )
+
+                const [path, frontEndOutput] = await routingPathMaker([
+                    token0,
+                    token1,
+                    token0,
+                ])
+                // console.log(path)
+                let swapParam: string = "",
+                    param: string
+                for (let i = 0; i < path.length; i += 4) {
+                    if (i === 0) {
+                        param = abiCoder.encode(
+                            ["tuple(address[], address, uint256)"],
+                            [[[path[i], path[i + 1]], path[i + 2], path[i + 3]]]
+                        )
+                    } else {
+                        param = abiCoder
+                            .encode(
+                                ["tuple(address[], address, uint256)"],
+                                [
+                                    [
+                                        [path[i], path[i + 1]],
+                                        path[i + 2],
+                                        path[i + 3],
+                                    ],
+                                ]
+                            )
+                            .slice(2)
+                    }
+                    swapParam += param
+
+                    console.log(
+                        `Potential benefit of ${ethers.BigNumber.from(
+                            path[path.length - 1]
+                        ).sub(ethers.BigNumber.from(path[3]))}`
+                    )
+                }
+
+                if (
+                    ethers.BigNumber.from(frontEndOutput.path_0.TotalIn).lt(
+                        ethers.BigNumber.from(frontEndOutput.path_0.TotalOut)
+                    )
+                ) {
+                    console.log(
+                        `Opportunity found with ${ethers.BigNumber.from(
+                            frontEndOutput.path_0.TotalOut
+                        ).sub(frontEndOutput.path_0.TotalIn)} potential benefit`
+                    )
+                    console.log({ path, swapParam })
+
+                    await arbDao.aaveFlashLoanV3(
+                        path[0],
+                        frontEndOutput.path_0.TotalIn,
+                        swapParam
+                    )
+                }
+            }
+        }
+    }
+    // console.log(swapParam)
+
+    // return swapParam
 }
 
 /**
@@ -24,6 +121,7 @@ const runArb = async function () {
 export const routingPathMaker = async function (path: string[]) {
     let frontEndOutput: any = {},
         insidePath: any = {},
+        pathOut: string[] = [],
         amountLeft: ethers.BigNumber = ethers.BigNumber.from("0"),
         tokenLeft: ethers.BigNumber = ethers.BigNumber.from("0"),
         totalIn: ethers.BigNumber = ethers.BigNumber.from("0")
@@ -35,6 +133,7 @@ export const routingPathMaker = async function (path: string[]) {
         }
     }
     let result = await firstPartOfPath(path[0], path[1])
+    pathOut = pathOut.concat(result)
     insidePath[`from`] = path[0]
     insidePath[`to`] = path[1]
     for (let j = 0; j < result.length; j += 4) {
@@ -49,6 +148,17 @@ export const routingPathMaker = async function (path: string[]) {
                             )
                         )
                         .toString()
+                if (
+                    ethers.BigNumber.from(result[j + 3])
+                        .mul(ethers.BigNumber.from("10").pow(baseDecimal))
+                        .div(
+                            ethers.BigNumber.from("10").pow(
+                                ethers.BigNumber.from("18")
+                            )
+                        )
+                        .isZero()
+                )
+                    continue
                 const tokenOut = await uniswapV2Quoter(
                     ethers.BigNumber.from(result[j + 3])
                         .mul(ethers.BigNumber.from("10").pow(baseDecimal))
@@ -130,6 +240,21 @@ export const routingPathMaker = async function (path: string[]) {
                                     )
                                 )
                                 .toString()
+                        pathOut = pathOut.concat([
+                            tokenNameAddressConvertor(path[i]),
+                            tokenNameAddressConvertor(path[i + 1]),
+                            result[j + 2],
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                )
+                                .toString(),
+                        ])
                         amountLeft = amountLeft.sub(
                             ethers.BigNumber.from(result[j + 3])
                                 .mul(
@@ -141,6 +266,19 @@ export const routingPathMaker = async function (path: string[]) {
                                     )
                                 )
                         )
+                        if (
+                            ethers.BigNumber.from(result[j + 3])
+                                .mul(
+                                    ethers.BigNumber.from("10").pow(baseDecimal)
+                                )
+                                .div(
+                                    ethers.BigNumber.from("10").pow(
+                                        ethers.BigNumber.from("18")
+                                    )
+                                )
+                                .isZero()
+                        )
+                            continue
                         const tokenOut = await uniswapV2Quoter(
                             ethers.BigNumber.from(result[j + 3])
                                 .mul(
@@ -174,6 +312,13 @@ export const routingPathMaker = async function (path: string[]) {
                         insidePath[`${uniswapV2CompatibleJSON[jj].name}`] =
                             amountLeft.toString()
 
+                        pathOut = pathOut.concat([
+                            tokenNameAddressConvertor(path[i]),
+                            tokenNameAddressConvertor(path[i + 1]),
+                            result[j + 2],
+                            amountLeft.toString(),
+                        ])
+                        if (amountLeft.isZero()) continue
                         const tokenOut = await uniswapV2Quoter(
                             amountLeft,
                             [path[i], path[i + 1]],
@@ -207,7 +352,7 @@ export const routingPathMaker = async function (path: string[]) {
 
         frontEndOutput[`path_${i}`] = insidePath
         // console.log(insidePath)
-        console.log(frontEndOutput)
+        // console.log(frontEndOutput)
 
         /* __________ export to Json parts __________ */
         const jsonDataString = JSON.stringify(frontEndOutput)
@@ -219,6 +364,7 @@ export const routingPathMaker = async function (path: string[]) {
             }
         )
     }
+    return [pathOut, frontEndOutput]
 }
 
 /**
@@ -304,6 +450,8 @@ export const firstPartOfPath = async function (
             }
         }
     }
+    // console.log(structV2)
+
     return structV2
 }
 
