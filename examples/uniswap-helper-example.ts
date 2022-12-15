@@ -7,6 +7,7 @@ import {
 import {
     firstPartOfPath,
     routingPathMaker,
+    runArb,
     uniSwapV2GetAmountIn,
 } from "../helper-functions/router"
 import { ethers } from "ethers"
@@ -53,7 +54,7 @@ const main = async function () {
     // )
     // console.log(ans)
 
-    const ans = await routingPathMaker(["weth", "usdt", "weth"])
+    const ans = await runArb()
 }
 
 main()

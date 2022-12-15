@@ -12,6 +12,7 @@ import {
     uniswapV3Quoter,
 } from "../../helper-functions/uniswap-helper"
 import { expect } from "chai"
+import { runArb } from "../../helper-functions/router"
 
 describe("ArbDao v2 unit test", function () {
     let arbDao: ArbDao, deployer: SignerWithAddress
@@ -151,6 +152,13 @@ describe("ArbDao v2 unit test", function () {
                     .sub(expectedBalance[expectedBalance.length - 1])
                     .toNumber()
             ).gte(0)
+        })
+    })
+
+    describe("executeArbitrage", function () {
+        it.only("Checks if the execute Arbitrage function", async () => {
+            const ans = await runArb()
+            await arbDao.executeArbitrage(ans)
         })
     })
 })

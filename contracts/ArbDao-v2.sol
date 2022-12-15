@@ -6,6 +6,8 @@ import "@aave/core-v3/contracts/flashloan/base/FlashLoanSimpleReceiverBase.sol";
 import "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol";
 import "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol";
 
+import "hardhat/console.sol";
+
 /* IERC20 interface */
 interface IERC20 {
     function approve(address spender, uint256 amount) external returns (bool);
@@ -18,6 +20,7 @@ interface IERC20 {
 /* Custom errors*/
 error notOwner();
 error notAavePoolV3();
+error notBeneficial();
 
 contract ArbDao is FlashLoanSimpleReceiverBase {
     /* state variabels*/
@@ -83,18 +86,21 @@ contract ArbDao is FlashLoanSimpleReceiverBase {
         // abi.decode(params) to decode params
         executeArbitrage(_params);
 
+        uint256 _balance = IERC20(_asset).balanceOf(address(this));
+        if (_balance < _amount) revert notBeneficial();
+
         // approving AAve pool, repaying the money
         IERC20(_asset).approve(address(POOL), _amount + _premium);
         return true;
     }
 
     function executeArbitrage(bytes calldata _params) private {
-        while (true) {
-            _params[0:20];
+        for (uint256 i = 0; i < _params.length; i += 224) {
+            executeV2Swap(abi.decode(_params[i:i + 224], (uniV2Swap)));
         }
     }
 
-    function executeV2Swap(uniV2Swap memory _swapParams) public {
+    function executeV2Swap(uniV2Swap memory _swapParams) private {
         IERC20(_swapParams.path[0]).approve(
             _swapParams.routerAddress,
             _swapParams.amountIn
@@ -108,7 +114,7 @@ contract ArbDao is FlashLoanSimpleReceiverBase {
         );
     }
 
-    function executeV3Swap(uniV3Swap memory _swapParams) public {
+    function executeV3Swap(uniV3Swap memory _swapParams) private {
         address inputToken;
         // assembly is needed to access the first token data
         assembly {
